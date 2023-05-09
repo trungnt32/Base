@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.onboard.onboard.OnboardFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/btn_skip"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingHorizontal="@dimen/_24sdp"
+        android:paddingVertical="@dimen/_12sdp"
+        android:text="@string/skip"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/color_404040"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="@dimen/_32sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        app:layout_constraintTop_toBottomOf="@id/btn_skip"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_32sdp"
+        android:layout_height="0dp" />
+
+    <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
+        android:id="@+id/dots_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        app:dotsColor="@color/gray_D9"
+        app:dotsCornerRadius="8dp"
+        app:dotsSize="@dimen/_12sdp"
+        app:dotsSpacing="@dimen/_4sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:progressMode="true"
+        app:selectedDotColor="@color/green_0C" />
+
+<!--    <carbon.widget.TextView-->
+<!--        android:id="@+id/btn_next"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="@dimen/_24sdp"-->
+<!--        android:layout_marginBottom="@dimen/_48sdp"-->
+<!--        android:background="@drawable/bg_core"-->
+<!--        android:paddingHorizontal="@dimen/_45sdp"-->
+<!--        android:paddingVertical="@dimen/_12sdp"-->
+<!--        android:text="@string/next"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="@dimen/_18sdp"-->
+<!--        app:carbon_cornerRadius="@dimen/_24sdp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

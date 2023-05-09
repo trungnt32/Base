@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">スピンホイール - 天使の決断</string>
+
+    <string name="confirm">確認</string>
+    <string name="cancel_dialog">キャンセル</string>
+    <string name="agree_dialog">同意</string>
+    <string name="add_record">レコードを追加</string>
+    <string name="select_language">言語を選択する</string>
+    <string name="next">次</string>
+    <string name="ok">わかった</string>
+
+    <!--FONT-->
+    <string name="font_italic" translatable="false">fonts/Roboto-BlackItalic.ttf</string>
+    <string name="font_bold" translatable="false">fonts/Roboto-Bold.ttf</string>
+    <string name="font_regular" translatable="false">fonts/Roboto-Regular.ttf</string>
+    <string name="font_black" translatable="false">fonts/Roboto-Black.ttf</string>
+    <string name="font_medium" translatable="false">font/Roboto-Medium.ttf</string>
+
+    <string name="txt_language_in" translatable="false">インドネシア語</string>
+    <string name="txt_language_thai" translatable="false">タイ語</string>
+    <string name="txt_language_malay" translatable="false">マレーシア語</string>
+    <string name="txt_language_en">英語</string>
+    <string name="txt_language_vi">ベトナム語</string>
+    <string name="txt_language_spanish">スペイン語</string>
+    <string name="txt_language_portuguese">ポルトガル語</string>
+    <string name="txt_language_russiane">ロシア</string>
+    <string name="txt_language_ja">日本</string>
+    <string name="txt_language_korean">韓国語</string>
+    <string name="txt_language_french">フランス語</string>
+    <string name="txt_language_german">ドイツ人</string>
+    <string name="txt_language_arabic" translatable="false">アラビア語</string>
+    <string name="txt_language_chi">中国語</string>
+    <string name="txt_language_chinese_Simplified" translatable="false">中国語（簡体字 ）</string>
+    <string name="txt_language_chinese_Traditional" translatable="false">中国の伝統的な）</string>
+
+    <string name="onboard_title_1">天使の決断を下す</string>
+    <string name="onboard_content_1">スピン ホイール オプションを埋めるための多数のオプションがあります。</string>
+
+    <string name="onboard_title_2">おかしなスピン</string>
+    <string name="onboard_content_2">ゲーミフィケーション ポップアップには、顧客を楽しませるためのフォーチュン ホイールまたはゲーミフィケーション メソッドが含まれます。</string>
+
+    <string name="onboard_title_3">驚くべき結果を生み出す</string>
+    <string name="onboard_content_3">ウイリーを使用すると、順番に顕著な結果を得るのに役立ちます。</string>
+
+    <string name="skip">スキップ</string>
+    <string name="lever">レベル</string>
+    <string name="home">家</string>
+    <string name="setting">設定</string>
+    <string name="open">開ける</string>
+    <string name="search_here">検索</string>
+
+    <string name="or">また</string>
+    <string name="browse">ブラウズ</string>
+    <string name="copy">コピー</string>
+    <string name="check">小切手</string>
+    <string name="copy_to_clib_board">クリップボードに保存</string>
+    <string name="language">言語</string>
+    <string name="privacy">プライバシー</string>
+    <string name="about_app">アプリについて</string>
+
+    <string name="title_privacy">MERRYBLUE はボイスチェンジャー アプリを無料アプリとして作成しました。</string>
+    <string name="content_privacy">"このサービスは MERRYBLUE によって無料で提供され、そのまま使用することを意図しています。
+このページは、誰かが私のサービスを使用することを決定した場合に、個人情報の収集、使用、および開示に関する私のポリシーについて訪問者に通知するために使用されます。
+私のサービスを使用することを選択した場合、このポリシーに関連する情報の収集と使用に同意したことになります。
+私が収集した個人情報は、サービスの提供と改善のために使用されます。このプライバシー ポリシーに記載されている場合を除き、あなたの情報を使用したり、他の人と共有したりすることはありません。
+- 画像: ユーザーが作成した、またはインターネット上で検索した画像コンテンツについて、当社は責任を負いません。
+- ストーリー: 政治的、攻撃的、または欺瞞的な目的でアプリ内でユーザーが作成したストーリー。
+- アプリケーションのユーザーが悪意のある目的、政治目的、投票、適用される国内法に違反した場合、当社は責任を負いません。
+1. 情報の収集と利用
+より良い経験のために、私たちのサービスを使用している間、私はあなたに特定の個人を特定できる情報を私たちに提供するよう求めることがあります.私が要求した情報はあなたのデバイスに保持され、私が収集することはありません.
+アプリは、あなたを識別するために使用される情報を収集する可能性のあるサードパーティのサービスを使用します.
+サードパーティ サービス プロバイダーのプライバシー ポリシーへのリンクをアプリで使用できます
+
+2. ログデータ
+あなたが私のサービスを使用するときはいつでも、アプリでエラーが発生した場合、ログデータと呼ばれるあなたの電話で（サードパーティ製品を通じて）データと情報を収集することをお知らせします.
+このログ データには、デバイスのインターネット プロトコル (「IP」) アドレス、デバイス名、オペレーティング システムのバージョン、サービスを利用する際のアプリの構成、サービスの使用日時、およびその他の統計などの情報が含まれる場合があります。 .
+
+3. クッキー
+Cookie は、匿名の一意の識別子として一般的に使用される少量のデータを含むファイルです。
+これらは、アクセスした Web サイトからブラウザに送信され、デバイスの内部メモリに保存されます。
+このサービスは、これらの「Cookie」を明示的に使用しません。ただし、アプリは、「Cookie」を使用して情報を収集し、サービスを改善するサードパーティのコードとライブラリを使用する場合があります。
+これらの Cookie を受け入れるか拒否するかを選択でき、いつ Cookie がデバイスに送信されるかを知ることができます。当社のクッキーを拒否することを選択した場合、本サービスの一部を使用できない場合があります。
+
+4. サービスプロバイダー
+アプリケーションで使用する権限:
+android.permission.WRITE_EXTERNAL_STORAGE
+
+android.permission.READ_EXTERNAL_STORAGE
+
+android.permission.WAKE_LOCK
+
+android.permission.VIBRATE
+
+android.permission.INTERNET
+
+android.permission.ACCESS_NETWORK_STATE
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+ノート：
+- 当社は、アプリケーションの機能を提供する目的でのみ上記の権利を使用し、Google Play のポリシーを完全に遵守し、他の目的には使用しないことを約束します。
+
+- ユーザーが提供するすべての情報は、ユーザーのデバイスにのみ保存され、いかなる形式でも収集および保存されません (サーバーやクラウド サービスを含む)。
+
+- ユーザーの機密情報 (電子メール、銀行口座など) を開示、保存、または共有することはありません。
+
+- ご質問や苦情は、メールでご連絡ください: support@outlookdaily.co
+
+5. サービスプロバイダー
+私は、次の理由により、サードパーティの企業および個人を雇用する場合があります。
+当社のサービスを促進するため。
+
+当社に代わってサービスを提供するため。
+
+サービスに関連するサービスを実行するため。
+当社のサービスがどのように使用されているかを分析するのに役立ちます。
+これらの第三者があなたの個人情報にアクセスできることを、このサービスのユーザーに通知したいと思います。
+その理由は、私たちに代わって彼らに割り当てられたタスクを実行するためです。ただし、他の目的で情報を開示または使用しないことが義務付けられています。
+
+6. セキュリティ
+私はあなたの個人情報を私たちに提供してくださるあなたの信頼を大切にしています。
+ただし、インターネットを介した送信方法や電子ストレージの方法は 100% 安全で信頼できるものではなく、絶対的な安全性を保証することはできません。
+
+7. 他のサイトへのリンク
+本サービスには、他のサイトへのリンクが含まれている場合があります。サードパーティのリンクをクリックすると、そのサイトに移動します。
+これらの外部サイトは私が運営しているわけではないことに注意してください。したがって、これらのウェブサイトのプライバシー ポリシーを確認することを強くお勧めします。
+
+私は、第三者のサイトまたはサービスのコンテンツ、プライバシー ポリシー、または慣行を管理することはできず、責任も負わないものとします。
+
+8. 子供のプライバシー
+これらのサービスは、13 歳未満の者には対応していません。私は、13 歳未満の子供から故意に個人を特定できる情報を収集していません。
+13 歳未満の子供が私に個人情報を提供したことが判明した場合、私は直ちにサーバーからこれを削除します。
+あなたが親または保護者であり、あなたの子供が私たちに個人情報を提供したことに気付いている場合は、私に連絡してください。私は必要な措置を講じることができます.
+
+9. このプライバシーポリシーの変更
+プライバシー ポリシーは随時更新される場合があります。そのため、このページを定期的に確認して、変更がないか確認することをお勧めします。
+このページに新しいプライバシーポリシーを掲載することにより、変更を通知します。これらの変更は、このページに掲載された直後に有効になります。
+
+10. お問い合わせ
+私のプライバシー ポリシーについてご質問やご提案がございましたら、support@soundinstinct.com までお気軽にお問い合わせください。"
+    </string>
+    <string name="content_about_app">"質問やフィードバックはありますか?私たちはすべての電子メールを読みます
+提案がありますか？ お気軽に support@outlookdaily.co までご連絡ください。"</string>
+
+    <string name="sent">送信済</string>
+    <string name="the_word_you_searched">アプリを評価してください。 ご協力ありがとうございました！</string>
+    <string name="loading_ads_text">広告を読み込んでいます...</string>
+    <string name="version">もっと</string>
+    <string name="guide">ガイド</string>
+    <string name="more_app">より多くのアプリ</string>
+    <string name="rate_app">アプリを評価</string>
+    <string name="feedback">フィードバック</string>
+    <string name="contac_us">お問い合わせ</string>
+    <string name="scan_text">テキストをスキャン</string>
+    <string name="enter_file_name">ファイル名を入力してください</string>
+    <string name="scanned_text">スキャンされたテキスト</string>
+    <string name="no_image">まだスキャンされた画像はありません</string>
+    <string name="delete">消去</string>
+    <string name="translate">翻訳</string>
+    <string name="speak">話す</string>
+    <string name="text">文章</string>
+    <string name="photo">写真</string>
+    <string name="rename">名前を変更</string>
+    <string name="empty_name">名前が無効です</string>
+    <string name="we_will_absorb_and_upgrade_a_lot_more">どんどん吸収してレベルアップしていきます！ ありがとうございました！</string>
+    <string name="please_give_us_feedback">フィードバックをお寄せください</string>
+    <string name="do_you_like_the_app">あなたはアプリが好きですか？</string>
+    <string name="confirm_delete">ファイルを削除しようとしています。\nこのファイルは完全に消えます</string>
+    <string name="delete_file">ファイルを削除する</string>
+    <string name="duplicate_name">名前は既に存在します。別の名前を選択してください</string>
+    <string name="translate_to">に翻訳</string>
+
+    <string name="guide_info_1">右側の上部にある機能ボタンをクリックして、コンテンツを作成します</string>
+    <string name="guide_info_2">「コンテンツ」セクションをクリックして、お気に入りのトピックオプションを選択します</string>
+    <string name="guide_info_3">「追加」ボタンをクリックして、さらにトピックを作成します</string>
+    <string name="guide_info_4">水平方向にスクロールして、お気に入りのスピンを選択します。 「+」ボタンをクリックして、ホイールからさらに回答を追加します</string>
+    <string name="guide_info_5">「編集」ボタンをクリックして、スピンホイールのコンテンツを編集します</string>
+
+    <string name="loading_api">あなたのための言語を手に入れる</string>
+    <string name="body_name_app">ツール、ライフスタイル</string>
+
+    <string name="error_max_name">名前は最大 15 文字です。</string>
+    <string name="loading" translatable="false">読み込んでいます...</string>
+
+    <string name="google_admob_app_id" translatable="false">ca-app-pub-6445739239297382~2703137382</string>
+
+    // in app purchase
+    <string name="enjoy_your_premium_member">プレミアム会員を楽しもう</string>
+    <string name="continues">継続する</string>
+    <string name="in_app_month">/月</string>
+    <string name="in_app_forever">/永遠に</string>
+    <string name="in_app_year">/年</string>
+    <string name="save_in_app">保存 ％</string>
+
+    <string name="in_app_title_1_m">マンスリーパッケージ</string>
+    <string name="in_app_content_1_m">プレミアム特典を 1 か月間ご利用いただけます。</string>
+
+    <string name="in_app_title_n_m">%s か月のパッケージ</string>
+    <string name="in_app_content_n_m">%s の月間、プレミアム権限を取得します。</string>
+
+    <string name="in_app_title_1_y">年式パッケージ</string>
+    <string name="in_app_content_1_y">プレミアム特典を 1 年間ご利用いただけます。</string>
+
+    <string name="in_app_title_f_r">フォーエバーパッケージ</string>
+    <string name="in_app_content_f_r">プレミアム特典を永遠に手に入れましょう。</string>
+
+    // data default
+
+    <string name="title_default_1">食べたいものは..</string>
+    <string name="content_default_1">ピザ</string>
+    <string name="content_default_2">ハンバーガー</string>
+    <string name="content_default_3">プーティン</string>
+    <string name="content_default_4">マカロン</string>
+    <string name="content_default_5">ステーキ</string>
+    <string name="content_default_6">フライドチキン</string>
+    <string name="content_default_7">中華料理</string>
+    <string name="content_default_8">パスタ</string>
+
+    <string name="title_default_2">興味深い場所</string>
+    <string name="content_default_1_1">公園</string>
+    <string name="content_default_2_1">レストラン</string>
+    <string name="content_default_3_1">美術館</string>
+    <string name="content_default_4_1">遊び場</string>
+    <string name="content_default_5_1">家</string>
+    <string name="content_default_6_1">映画館</string>
+
+    <string name="title_default_3">飲む絶好のチャンス</string>
+    <string name="content_default_1_2">女の子が飲む</string>
+    <string name="content_default_2_2">男の子の飲み物</string>
+    <string name="content_default_3_2">あなたの次に</string>
+    <string name="content_default_4_2">回す人</string>
+    <string name="content_default_5_2">あなたの反対側</string>
+
+    <string name="title_default_4">家事をするチャンス</string>
+    <string name="content_default_1_3">女の子</string>
+    <string name="content_default_2_3">男の子</string>
+    <string name="content_default_3_3">ママ</string>
+    <string name="content_default_4_3">お父さん</string>
+    <string name="content_default_5_3">祖母</string>
+    <string name="content_default_6_3">おじいさん</string>
+    <string name="content_default_7_3">最年少</string>
+
+    <string name="title_default_5">今日はラッキーカラーを選ぼう</string>
+    <string name="content_default_1_4">赤</string>
+    <string name="content_default_2_4">黄色</string>
+    <string name="content_default_3_4">青い</string>
+    <string name="content_default_4_4">緑</string>
+    <string name="content_default_5_4">紫の</string>
+    <string name="content_default_6_4">白</string>
+    <string name="content_default_7_4">黒</string>
+
+    <string name="title_default_6">誰があなたに恋をしていますか？</string>
+    <string name="content_default_1_5">向かいの女の子</string>
+    <string name="content_default_2_5">最短の髪</string>
+    <string name="content_default_3_5">一番背の高い男の子</string>
+    <string name="content_default_4_5">向かいの男の子</string>
+    <string name="content_default_5_5">最もホットな男</string>
+
+    // content
+    <string name="inactive">非活性</string>
+    <string name="again">また</string>
+    <string name="share">シェア</string>
+    <string name="content">コンテンツ</string>
+    <string name="active_all">すべてアクティブ</string>
+    <string name="add">追加</string>
+    <string name="edit">編集</string>
+    <string name="suggest">提案</string>
+    <string name="your_content">あなたのコンテンツ</string>
+    <string name="hint_edit_spin">例：美術館</string>
+    <string name="spin_theme">スピンテーマ</string>
+    <string name="full_color">フルカラー</string>
+    <string name="green_color">緑</string>
+    <string name="red_color">赤</string>
+    <string name="blue_color">青い</string>
+    <string name="purple_color">紫の</string>
+    <string name="yellow_color">黄色</string>
+    <string name="save">保存</string>
+    <string name="add_content">コンテンツを追加</string>
+    <string name="name_content">名前の内容</string>
+
+    <string name="search">言語検索</string>
+    <string name="search_error">"%s" が見つかりませんでした</string>
+    <string name="try_searching">別のスペルまたはキーワードを使用して、もう一度検索してみてください。</string>
+    <string name="app_name_setting">スピンホイール</string>
+    <string name="sound">音</string>
+    <string name="error_character">最大 14 文字</string>
+    <string name="empty_view">下の \n ボタンでコンテンツを追加してください</string>
+    <string name="note">ノート</string>
+    <string name="please_turn_on_the_network">快適にご利用いただくために\nネットワークをオンにしてください</string>
+    <string name="thank_for_your_response">ご返信ありがとうございます ！</string>
+    <string name="we_will_listen_to_your_comments">私たちはあなたのコメントに耳を傾け、\n製品の改善に努めます!</string>
+    <string name="delete_this_content">このコンテンツを削除</string>
+    <string name="error_min_content">コンテンツの最小量は 4 です。\nさらに入力してください</string>
+    <string name="error_max_content">\n コンテンツ量の上限に達しました。\n アップグレードして選択肢を増やしてください。</string>
+    <string name="error_max_content_in_app">コンテンツ量の上限に達しました。</string>
+    <string name="error_blank_content">内容を空白にすることはできません</string>
+    <string name="update">アップデート</string>
+    <string name="error_blank_question">質問内容をご記入ください</string>
+    <string name="error_same_name">このコンテンツは既に存在します。その他の内容を入力してください！</string>
+
+</resources>

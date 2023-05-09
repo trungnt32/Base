@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/language">
+
+    <fragment
+        android:id="@+id/language"
+        android:label="Select language"
+        tools:layout="@layout/fragment_language"
+        android:name="com.example.dictionary.ui.onboard.language.LanguageFragment" >
+        <action
+            android:id="@+id/action_language_to_onboard"
+            app:destination="@id/onboard" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onboard"
+        android:label="On board"
+        tools:layout="@layout/fragment_onboard"
+        android:name="com.example.dictionary.ui.onboard.onboard.OnboardFragment" />
+
+</navigation>

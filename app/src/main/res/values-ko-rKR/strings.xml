@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">스핀 휠 - 천사의 결정</string>
+
+    <string name="confirm">확인하다</string>
+    <string name="cancel_dialog">취소</string>
+    <string name="agree_dialog">동의하다</string>
+    <string name="add_record">레코드 추가</string>
+    <string name="select_language">언어 선택</string>
+    <string name="next">다음</string>
+    <string name="ok">확인</string>
+
+    <!--FONT-->
+    <string name="font_italic" translatable="false">fonts/Roboto-BlackItalic.ttf</string>
+    <string name="font_bold" translatable="false">fonts/Roboto-Bold.ttf</string>
+    <string name="font_regular" translatable="false">fonts/Roboto-Regular.ttf</string>
+    <string name="font_black" translatable="false">fonts/Roboto-Black.ttf</string>
+    <string name="font_medium" translatable="false">font/Roboto-Medium.ttf</string>
+
+    <string name="txt_language_in" translatable="false">인도네시아 인</string>
+    <string name="txt_language_thai" translatable="false">태국어</string>
+    <string name="txt_language_malay" translatable="false">말레이시아인</string>
+    <string name="txt_language_en">영어</string>
+    <string name="txt_language_vi">베트남어</string>
+    <string name="txt_language_spanish">스페인의</string>
+    <string name="txt_language_portuguese">포르투갈 인</string>
+    <string name="txt_language_russiane">러시아인</string>
+    <string name="txt_language_ja">일본어</string>
+    <string name="txt_language_korean">한국인</string>
+    <string name="txt_language_french">프랑스 국민</string>
+    <string name="txt_language_german">독일 사람</string>
+    <string name="txt_language_arabic" translatable="false">아라비아 말</string>
+    <string name="txt_language_chi">중국인</string>
+    <string name="txt_language_chinese_Simplified" translatable="false">중국어 (간체 )</string>
+    <string name="txt_language_chinese_Traditional" translatable="false">중국 전통)</string>
+
+    <string name="onboard_title_1">당신의 천사 결정을 내리십시오</string>
+    <string name="onboard_content_1">스핀 휠 옵션을 채우기 위한 다양한 옵션이 있습니다.</string>
+
+    <string name="onboard_title_2">가장 재미있는 스핀</string>
+    <string name="onboard_content_2">게임화 팝업에는 고객을 즐겁게 하는 운세 또는 게임화 방법이 포함됩니다.</string>
+
+    <string name="onboard_title_3">놀라운 결과 만들기</string>
+    <string name="onboard_content_3">휠리를 사용하면 차례로 눈에 띄는 결과를 얻을 수 있습니다.</string>
+
+    <string name="skip">건너뛰다</string>
+    <string name="lever">수준</string>
+    <string name="home">집</string>
+    <string name="setting">환경</string>
+    <string name="open">열려 있는</string>
+    <string name="search_here">여기에서 검색</string>
+
+    <string name="or">또는</string>
+    <string name="browse">검색</string>
+    <string name="copy">복사</string>
+    <string name="check">확인하다</string>
+    <string name="copy_to_clib_board">클립보드에 저장</string>
+    <string name="language">언어</string>
+    <string name="privacy">은둔</string>
+    <string name="about_app">앱 정보</string>
+
+    <string name="title_privacy">"MERRYBLUE는 보이스 체인저 앱을 무료 앱으로 만들었습니다.
+"</string>
+    <string name="content_privacy">"이 서비스는 MERRYBLUE에서 무료로 제공하며 있는 그대로 사용하기 위한 것입니다.
+이 페이지는 누군가가 내 서비스를 사용하기로 결정한 경우 개인 정보의 수집, 사용 및 공개에 대한 내 정책에 대해 방문자에게 알리는 데 사용됩니다.
+내 서비스를 사용하기로 선택하면 이 정책과 관련된 정보 수집 및 사용에 동의하는 것입니다.
+내가 수집한 개인 정보는 서비스 제공 및 개선을 위해 사용됩니다. 이 개인 정보 보호 정책에 설명된 경우를 제외하고 귀하의 정보를 다른 사람과 사용하거나 공유하지 않습니다.
+- 이미지 : 이용자가 직접 생성하거나 인터넷에서 검색한 이미지 콘텐츠에 대해서는 책임을 지지 않습니다.
+- 스토리: 정치적, 공격적 또는 기만적인 목적으로 앱에서 사용자 생성 스토리.
+- 당사는 애플리케이션 사용자가 악의적인 목적, 정치적 목적, 투표 및 해당 국가 법률을 위반하는 경우 책임을 지지 않습니다.
+1. 정보 수집 및 이용
+더 나은 경험을 위해 서비스를 사용하는 동안 귀하에게 특정 개인 식별 정보를 제공하도록 요청할 수 있습니다. 내가 요청한 정보는 귀하의 장치에 보관되며 어떠한 방식으로도 수집되지 않습니다.
+앱은 귀하를 식별하는 데 사용되는 정보를 수집할 수 있는 제3자 서비스를 사용합니다.
+앱에서 타사 서비스 제공업체의 개인정보 보호정책에 대한 링크를 사용할 수 있습니다.
+
+2. 로그 데이터
+귀하가 내 서비스를 사용할 때마다 앱에 오류가 있는 경우 Log Data라는 휴대전화에서 데이터 및 정보(타사 제품을 통해)를 수집함을 알려드립니다.
+이 로그 데이터에는 장치 인터넷 프로토콜(""IP"") 주소, 장치 이름, 운영 체제 버전, 내 서비스를 사용할 때의 앱 구성, 서비스 사용 시간 및 날짜 및 기타 통계와 같은 정보가 포함될 수 있습니다. .
+
+3. 쿠키
+쿠키는 익명의 고유 식별자로 일반적으로 사용되는 소량의 데이터가 포함된 파일입니다.
+방문하는 웹사이트에서 브라우저로 전송되어 기기의 내부 메모리에 저장됩니다.
+이 서비스는 이러한 ""쿠키""를 명시적으로 사용하지 않습니다. 그러나 앱은 정보를 수집하고 서비스를 개선하기 위해 ""쿠키""를 사용하는 타사 코드 및 라이브러리를 사용할 수 있습니다.
+귀하는 이러한 쿠키를 수락하거나 거부할 수 있으며 쿠키가 귀하의 장치로 전송되는 시기를 알 수 있습니다. 쿠키를 거부하는 경우 이 서비스의 일부를 사용하지 못할 수 있습니다.
+
+4. 서비스 제공자
+애플리케이션에서 사용하는 권한:
+android.permission.WRITE_EXTERNAL_STORAGE
+
+android.permission.READ_EXTERNAL_STORAGE
+
+android.permission.WAKE_LOCK
+
+android.permission.VIBRATE
+
+android.permission.인터넷
+
+android.permission.ACCESS_NETWORK_STATE
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+노트:
+- 우리는 위의 권리를 애플리케이션의 기능을 제공하기 위한 목적으로만 사용할 것을 약속하며 다른 목적으로는 절대 사용하지 않으며 Google Play의 정책을 완전히 준수합니다.
+
+- 사용자가 제공한 모든 정보는 사용자의 장치에만 저장되며 당사는 어떠한 형태(서버 또는 클라우드 서비스 포함…)로도 수집 및 저장하지 않습니다.
+
+- 사용자의 민감한 정보(이메일, 은행 계좌 등)를 공개, 저장 또는 공유하지 않습니다.
+
+- 질문이나 불만 사항은 이메일(support@outlookdaily.co)로 문의해 주십시오.
+
+5. 서비스 제공자
+다음과 같은 이유로 제3자 회사 및 개인을 고용할 수 있습니다.
+서비스를 용이하게 하기 위해
+
+당사를 대신하여 서비스를 제공하기 위해
+
+서비스 관련 서비스를 수행하기 위해
+서비스 사용 방법을 분석하는 데 도움이 됩니다.
+이 서비스의 사용자에게 이러한 제3자가 귀하의 개인 정보에 액세스할 수 있음을 알리고 싶습니다.
+그 이유는 우리를 대신하여 그들에게 할당된 작업을 수행하기 위함입니다. 그러나 정보를 공개하거나 다른 목적으로 사용하지 않을 의무가 있습니다.
+
+6. 보안
+귀하의 개인 정보 제공에 대한 귀하의 신뢰를 소중하게 생각하므로 상업적으로 허용되는 보호 수단을 사용하기 위해 노력하고 있습니다.
+그러나 인터넷을 통한 전송 방법이나 전자적 저장 방법은 100% 안전하고 신뢰할 수 없으며 절대적인 보안을 보장할 수 없습니다.
+
+7. 다른 사이트에 대한 링크
+이 서비스에는 다른 사이트에 대한 링크가 포함될 수 있습니다. 타사 링크를 클릭하면 해당 사이트로 이동합니다.
+이러한 외부 사이트는 제가 운영하지 않습니다. 따라서 이 웹사이트의 개인정보 보호정책을 검토할 것을 강력히 권장합니다.
+
+나는 제3자 사이트나 서비스의 콘텐츠, 개인정보 보호정책 또는 관행을 통제할 수 없으며 책임을 지지 않습니다.
+
+8. 아동의 개인정보 보호
+이 서비스는 13세 미만의 사람을 대상으로 하지 않습니다. 본인은 13세 미만의 어린이로부터 고의로 개인 식별 정보를 수집하지 않습니다.
+13세 미만의 어린이가 나에게 개인 정보를 제공한 것을 발견한 경우, 나는 즉시 이를 당사 서버에서 삭제합니다.
+귀하가 부모 또는 보호자이고 귀하의 자녀가 당사에 개인 정보를 제공했다는 사실을 알고 있는 경우 필요한 조치를 취할 수 있도록 저에게 연락해 주십시오.
+
+9. 본 개인정보 보호정책의 변경
+개인 정보 보호 정책을 수시로 업데이트할 수 있습니다. 따라서 이 페이지에서 변경 사항이 있는지 주기적으로 검토하는 것이 좋습니다.
+변경 사항이 있는 경우 이 페이지에 새로운 개인 정보 보호 정책을 게시하여 알려 드리겠습니다. 이러한 변경 사항은 이 페이지에 게시되는 즉시 적용됩니다.
+
+10. 문의하기
+내 개인 정보 보호 정책에 대해 질문이나 제안 사항이 있는 경우 주저하지 말고 support@soundinstinct.com으로 연락하십시오."
+    </string>
+    <string name="content_about_app">"질문이나 피드백이 있습니까? 우리는 모든 이메일을 읽습니다.
+제안 사항이 있습니까? support@outlookdaily.co로 언제든지 연락주세요."</string>
+
+    <string name="sent">전송된</string>
+    <string name="the_word_you_searched">잠시 시간을 내어 앱을 평가해 주세요. 지원해 주셔서 감사합니다!</string>
+    <string name="loading_ads_text">광고 로드 중...</string>
+    <string name="version">버전</string>
+    <string name="guide">가이드</string>
+    <string name="more_app">더 많은 앱</string>
+    <string name="rate_app">앱 평가</string>
+    <string name="feedback">피드백</string>
+    <string name="contac_us">문의</string>
+    <string name="scan_text">텍스트 스캔</string>
+    <string name="enter_file_name">파일 이름 입력</string>
+    <string name="scanned_text">스캔한 텍스트</string>
+    <string name="no_image">아직 스캔한 이미지가 없습니다.</string>
+    <string name="delete">삭제</string>
+    <string name="translate">번역하다</string>
+    <string name="speak">말하다</string>
+    <string name="text">텍스트</string>
+    <string name="photo">사진</string>
+    <string name="rename">이름 바꾸기</string>
+    <string name="empty_name">이름이 잘못되었습니다.</string>
+    <string name="we_will_absorb_and_upgrade_a_lot_more">더 많이 흡수하고 업그레이드 하겠습니다! 고맙습니다!</string>
+    <string name="please_give_us_feedback">피드백을 주세요</string>
+    <string name="do_you_like_the_app">앱이 마음에 드시나요?</string>
+    <string name="confirm_delete">파일을 삭제하는 중입니다.\n이 파일은 완전히 사라집니다.</string>
+    <string name="delete_file">파일 삭제</string>
+    <string name="duplicate_name">이름이 이미 있습니다. 다른 이름을 선택하세요.</string>
+    <string name="translate_to">번역하다</string>
+
+    <string name="guide_info_1">우측 상단의 기능 버튼을 클릭하여 콘텐츠를 생성합니다.</string>
+    <string name="guide_info_2">콘텐츠섹션을 클릭하고 좋아하는 주제 옵션을 선택하십시오.</string>
+    <string name="guide_info_3">더 많은 주제를 만들려면 "추가" 버튼을 클릭하세요.</string>
+    <string name="guide_info_4">수평으로 스크롤하여 좋아하는 스핀을 선택합니다. 휠에서 더 많은 답변을 추가하려면 "+" 버튼을 클릭하세요.</string>
+    <string name="guide_info_5">스핀 휠 콘텐츠를 편집하려면 "편집" 버튼을 클릭하세요.</string>
+
+    <string name="loading_api">당신을 위한 언어 얻기</string>
+    <string name="body_name_app">도구, 라이프스타일</string>
+
+    <string name="error_max_name">최대 이름은 15자입니다.</string>
+    <string name="loading" translatable="false">로드 중...</string>
+
+    <string name="google_admob_app_id" translatable="false">ca-app-pub-6445739239297382~2703137382</string>
+
+    // in app purchase
+    <string name="enjoy_your_premium_member">프리미엄 회원을 즐기세요</string>
+    <string name="continues">계속하다</string>
+    <string name="in_app_month">/월</string>
+    <string name="in_app_forever">/년도</string>
+    <string name="in_app_year">/영원히</string>
+    <string name="save_in_app">구하다 %</string>
+
+    <string name="in_app_title_1_m">월간 패키지</string>
+    <string name="in_app_content_1_m">1개월 동안 프리미엄 혜택을 받으세요.</string>
+
+    <string name="in_app_title_n_m">%s개월 패키지</string>
+    <string name="in_app_content_n_m">%s 개월 동안 프리미엄 권한을 받으세요.</string>
+
+    <string name="in_app_title_1_y">올해 패키지</string>
+    <string name="in_app_content_1_y">1년 동안 프리미엄 혜택을 받으세요.</string>
+
+    <string name="in_app_title_f_r">포에버 패키지</string>
+    <string name="in_app_content_f_r">영원히 프리미엄 혜택을 받으세요.</string>
+
+    // data default
+
+    <string name="title_default_1">내가 먹고 싶은건..</string>
+    <string name="content_default_1">피자</string>
+    <string name="content_default_2">햄버거</string>
+    <string name="content_default_3">푸틴</string>
+    <string name="content_default_4">마카롱</string>
+    <string name="content_default_5">소고기 스테이크</string>
+    <string name="content_default_6">닭 튀김</string>
+    <string name="content_default_7">중국 음식</string>
+    <string name="content_default_8">파스타</string>
+
+    <string name="title_default_2">흥미로운 장소</string>
+    <string name="content_default_1_1">공원</string>
+    <string name="content_default_2_1">레스토랑</string>
+    <string name="content_default_3_1">박물관</string>
+    <string name="content_default_4_1">운동장</string>
+    <string name="content_default_5_1">집</string>
+    <string name="content_default_6_1">영화관</string>
+
+    <string name="title_default_3">마실 수 있는 절호의 찬스</string>
+    <string name="content_default_1_2">여자 음료</string>
+    <string name="content_default_2_2">소년 음료</string>
+    <string name="content_default_3_2">당신 옆에</string>
+    <string name="content_default_4_2">회전하는 사람</string>
+    <string name="content_default_5_2">당신의 반대</string>
+
+    <string name="title_default_4">집안일을 할 기회</string>
+    <string name="content_default_1_3">소녀</string>
+    <string name="content_default_2_3">그 소년</string>
+    <string name="content_default_3_3">엄마</string>
+    <string name="content_default_4_3">아빠</string>
+    <string name="content_default_5_3">할머니</string>
+    <string name="content_default_6_3">할아버지</string>
+    <string name="content_default_7_3">막내</string>
+
+    <string name="title_default_5">오늘 행운의 색상을 선택하십시오</string>
+    <string name="content_default_1_4">빨간색</string>
+    <string name="content_default_2_4">노란색</string>
+    <string name="content_default_3_4">푸른</string>
+    <string name="content_default_4_4">녹색</string>
+    <string name="content_default_5_4">보라</string>
+    <string name="content_default_6_4">하얀색</string>
+    <string name="content_default_7_4">검은색</string>
+
+    <string name="title_default_6">누가 당신과 사랑에 빠졌습니까?</string>
+    <string name="content_default_1_5">반대 소녀</string>
+    <string name="content_default_2_5">가장 짧은 머리</string>
+    <string name="content_default_3_5">키가 큰 소년</string>
+    <string name="content_default_4_5">반대 소년</string>
+    <string name="content_default_5_5">가장 섹시한 남자</string>
+
+    // content
+    <string name="inactive">비활성</string>
+    <string name="again">다시</string>
+    <string name="share">공유하다</string>
+    <string name="content">콘텐츠</string>
+    <string name="active_all">모두 활성화</string>
+    <string name="add">추가하다</string>
+    <string name="edit">편집하다</string>
+    <string name="suggest">제안하다</string>
+    <string name="your_content">귀하의 콘텐츠</string>
+    <string name="hint_edit_spin">예: 박물관</string>
+    <string name="spin_theme">스핀 테마</string>
+    <string name="full_color">풀 컬러</string>
+    <string name="green_color">녹색</string>
+    <string name="red_color">빨간색</string>
+    <string name="blue_color">푸른</string>
+    <string name="purple_color">보라</string>
+    <string name="yellow_color">노란색</string>
+    <string name="save">구하다</string>
+    <string name="add_content">콘텐츠 추가</string>
+    <string name="name_content">이름 내용</string>
+
+    <string name="search">언어 검색</string>
+    <string name="search_error">"%s" 을(를) 찾을 수 없습니다</string>
+    <string name="try_searching">다른 철자나 키워드를 사용하여 다시 검색해 보십시오.</string>
+    <string name="app_name_setting">스핀 휠</string>
+    <string name="sound">소리</string>
+    <string name="error_character">최대 14자</string>
+    <string name="empty_view">아래의 \n 버튼에 콘텐츠를 추가하세요.</string>
+    <string name="note">메모</string>
+    <string name="please_turn_on_the_network">더 나은 경험을 위해 \n 네트워크를 켜십시오.</string>
+    <string name="thank_for_your_response">응답해 주셔서 감사합니다! !</string>
+    <string name="we_will_listen_to_your_comments">귀하의 의견을 경청하고\n 더 나은 제품을 개선하기 위해 노력하겠습니다!</string>
+    <string name="delete_this_content">이 콘텐츠 삭제</string>
+    <string name="error_min_content">최소 콘텐츠 수는 4개입니다.\n 더 채워주세요.</string>
+    <string name="error_max_content">콘텐츠의 \n 한도에 도달했습니다.\n 더 많은 선택 항목을 보려면 업그레이드하십시오.</string>
+    <string name="error_max_content_in_app">콘텐츠 용량 한도에 도달했습니다.</string>
+    <string name="error_blank_content">콘텐츠는 비워둘 수 없습니다.</string>
+    <string name="update">업데이트</string>
+    <string name="error_blank_question">질문 정보를 입력해주세요</string>
+    <string name="error_same_name">이 콘텐츠는 이미 존재합니다. 다른 내용을 입력해주세요!</string>
+
+</resources>

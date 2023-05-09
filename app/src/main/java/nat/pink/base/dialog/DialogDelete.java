@@ -1,0 +1,45 @@
+package nat.pink.base.dialog;
+
+import android.app.Dialog;
+import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Bundle;
+import android.view.Gravity;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+
+import androidx.annotation.NonNull;
+import androidx.core.util.Consumer;
+
+
+import nat.pink.base.databinding.DialogDeleteScanBinding;
+
+public class DialogDelete extends Dialog {
+
+    private Consumer consumer;
+    private DialogDeleteScanBinding binding;
+
+    public DialogDelete(@NonNull Context context, int themeResId, Consumer consumer) {
+        super(context, themeResId);
+        this.consumer = consumer;
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        getWindow().setGravity(Gravity.CENTER);
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
+
+        binding = DialogDeleteScanBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+        binding.txtCancel.setOnClickListener(v -> dismiss());
+        binding.txtOk.setOnClickListener(v -> {
+            consumer.accept(new Object());
+            dismiss();
+        });
+    }
+}

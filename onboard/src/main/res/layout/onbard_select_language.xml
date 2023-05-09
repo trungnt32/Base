@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:theme="@style/OnboardStyle">
+
+    <LinearLayout
+        android:id="@+id/onboard_loading_ads_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:clickable="false"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/loading_ads_text"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <com.aemerse.onboard.internal.OnboardViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fitsSystemWindows="false"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/bottom"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/onboard2_bottombar_height"
+        android:background="@color/onboard_bar_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/select_language"
+        style="@style/Onboard2ButtonStyleCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/onboard_skip_button"
+        android:text="@string/select_language"
+        android:textAllCaps="false"
+        android:textColor="#212121"
+        android:textSize="@dimen/_20sdp"
+        app:layout_constraintStart_toStartOf="@id/indicator_container"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_onboard_fab_skip" />
+
+    <TextView
+        android:id="@+id/save"
+        style="@style/Onboard2ButtonStyleCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="14dp"
+        android:drawablePadding="@dimen/_12sdp"
+        android:text="@string/onboard_next_button"
+        android:textAllCaps="false"
+        android:textColor="#FFA527"
+        android:textSize="@dimen/_18sdp"
+        android:drawableRight="@drawable/ic_next"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/back"
+        style="@style/Onboard2ButtonStyleCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/onboard_back_button"
+        android:rotation="180"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_onboard_fab_next" />
+
+    <FrameLayout
+        android:id="@+id/indicator_container"
+        style="@style/OnboardIndicatorContainer"
+        android:layout_marginStart="32dp"
+        android:layoutDirection="ltr"
+        app:layout_constraintBottom_toBottomOf="@id/next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/next"
+        tools:background="@drawable/ic_onboard_indicator"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:background="@drawable/drawable_btn_done"
+        android:paddingHorizontal="@dimen/_38sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        android:text="@string/onboard_next_button"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottom" />
+
+    <TextView
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_18sdp"
+        android:background="@drawable/drawable_btn_done"
+        android:paddingHorizontal="@dimen/_38sdp"
+        android:paddingVertical="@dimen/_10sdp"
+        android:text="@string/onboard_done_button"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottom" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

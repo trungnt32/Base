@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">旋转轮 - 天使决定</string>
+
+    <string name="confirm">确认</string>
+    <string name="cancel_dialog">取消</string>
+    <string name="agree_dialog">同意</string>
+    <string name="add_record">添加记录</string>
+    <string name="select_language">选择语言</string>
+    <string name="next">下一个</string>
+    <string name="ok">好的</string>
+
+    <!--FONT-->
+    <string name="font_italic" translatable="false">fonts/Roboto-BlackItalic.ttf</string>
+    <string name="font_bold" translatable="false">fonts/Roboto-Bold.ttf</string>
+    <string name="font_regular" translatable="false">fonts/Roboto-Regular.ttf</string>
+    <string name="font_black" translatable="false">fonts/Roboto-Black.ttf</string>
+    <string name="font_medium" translatable="false">font/Roboto-Medium.ttf</string>
+
+    <string name="txt_language_in" translatable="false">印度尼西亚</string>
+    <string name="txt_language_thai" translatable="false">泰国</string>
+    <string name="txt_language_malay" translatable="false">马来西亚人</string>
+    <string name="txt_language_en">英语</string>
+    <string name="txt_language_vi">越南语</string>
+    <string name="txt_language_spanish">西班牙语</string>
+    <string name="txt_language_portuguese">葡萄牙语</string>
+    <string name="txt_language_russiane">葡萄牙语</string>
+    <string name="txt_language_ja">日本人</string>
+    <string name="txt_language_korean">韩国人</string>
+    <string name="txt_language_french">法语</string>
+    <string name="txt_language_german">德语</string>
+    <string name="txt_language_arabic" translatable="false">阿拉伯</string>
+    <string name="txt_language_chi">中国人</string>
+    <string name="txt_language_chinese_Simplified" translatable="false">简体中文 ）</string>
+    <string name="txt_language_chinese_Traditional" translatable="false">中国传统的）</string>
+
+    <string name="onboard_title_1">做出你的天使决定</string>
+    <string name="onboard_content_1">有许多选项可用于填充旋转轮选项。</string>
+
+    <string name="onboard_title_2">最有趣的旋转</string>
+    <string name="onboard_content_2">游戏化弹出窗口包括一个幸运轮或游戏化方法来招待客户。</string>
+
+    <string name="onboard_title_3">创造惊人的结果</string>
+    <string name="onboard_content_3">使用前轮可以帮助您依次获得显着的效果。</string>
+
+    <string name="skip">跳过</string>
+    <string name="lever">等级</string>
+    <string name="home">家</string>
+    <string name="setting">环境</string>
+    <string name="open">打开</string>
+    <string name="search_here">在这里搜索</string>
+
+    <string name="or">或者</string>
+    <string name="browse">浏览</string>
+    <string name="copy">复制</string>
+    <string name="check">查看</string>
+    <string name="copy_to_clib_board">保存到剪贴板</string>
+    <string name="language">语</string>
+    <string name="privacy">隐私</string>
+    <string name="about_app">关于应用</string>
+
+    <string name="title_privacy">"MERRYBLUE 将 Spin Wheel 应用程序构建为免费应用程序
+"</string>
+    <string name="content_privacy">"本服务由 MERRYBLUE 免费提供，并按原样使用。
+如果有人决定使用我的服务，则此页面用于通知访问者有关我收集、使用和披露个人信息的政策。
+如果您选择使用我的服务，则您同意收集和使用与本政策相关的信息。
+我收集的个人信息用于提供和改进服务。除本隐私政策中所述的情况外，我不会使用或与任何人共享您的信息。
+- 图片：我们不对用户创建或在互联网上搜索的图片内容负责。
+- 故事：用户在应用中生成的故事，用于政治、攻击性或欺骗性目的。
+- 当应用程序的用户出于恶意目的、政治目的、投票和违反适用的国家法律时，我们概不负责。
+一、信息收集与使用
+为了获得更好的体验，在使用我们的服务时，我可能会要求您向我们提供某些个人身份信息。我要求的信息将保留在您的设备上，我不会以任何方式收集。
+该应用程序确实使用第三方服务，这些服务可能会收集用于识别您的信息。
+可在应用程序中使用指向第三方服务提供商隐私政策的链接
+
+2. 日志数据
+我想通知您，每当您使用我的服务时，如果应用程序出现错误，我会（通过第三方产品）在您的手机上收集名为 Log Data 的数据和信息。
+此日志数据可能包括您的设备 Internet 协议（“IP”）地址、设备名称、操作系统版本、使用我的服务时应用程序的配置、您使用服务的时间和日期以及其他统计信息等信息.
+
+3. 饼干
+Cookie 是包含少量数据的文件，通常用作匿名唯一标识符。
+这些信息从您访问的网站发送到您的浏览器，并存储在您设备的内存中。
+本服务不明确使用这些“cookies”。但是，该应用程序可能会使用使用“cookies”的第三方代码和库来收集信息并改进其服务。
+您可以选择接受或拒绝这些 cookie，并知道何时将 cookie 发送到您的设备。如果您选择拒绝我们的 cookie，您可能无法使用本服务的某些部分。
+
+4. 服务提供商
+我们在应用程序中使用的权限：
+android.permission.WRITE_EXTERNAL_STORAGE
+
+android.permission.READ_EXTERNAL_STORAGE
+
+android.permission.WAKE_LOCK
+
+android.permission.VIBRATE
+
+android.permission.INTERNET
+
+android.permission.ACCESS_NETWORK_STATE
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+笔记：
+- 我们承诺仅将上述权利用于服务于应用程序的功能，并完全遵守google play的政策，不得用于任何其他目的。
+
+- 用户提供的所有信息只会存储在他们的设备上，我们不会以任何形式收集和存储（包括服务器或云服务......）。
+
+- 我们不会披露、存储或共享用户的任何敏感信息（电子邮件、银行账户……）。
+
+- 任何问题或投诉请通过电子邮件与我们联系：support@outlookdaily.co
+
+5. 服务提供商
+由于以下原因，我可能会雇用第三方公司和个人：
+促进我们的服务；
+
+代表我们提供服务；
+
+执行与服务相关的服务；
+协助我们分析我们的服务是如何使用的。
+我想通知本服务的用户，这些第三方可以访问您的个人信息。
+原因是代表我们执行分配给他们的任务。但是，他们有义务不为任何其他目的披露或使用这些信息。
+
+6. 安全
+我重视您对向我们提供您的个人信息的信任，因此我们正在努力使用商业上可接受的方式来保护它。
+但请记住，没有任何一种互联网传输方法或电子存储方法是 100% 安全可靠的，我无法保证其绝对安全。
+
+7. 其他网站的链接
+本服务可能包含指向其他网站的链接。如果您单击第三方链接，您将被定向到该站点。
+请注意，这些外部网站并非由我运营。因此，我强烈建议您查看这些网站的隐私政策。
+
+我无法控制任何第三方网站或服务的内容、隐私政策或做法，也不承担任何责任。
+
+8. 儿童隐私
+这些服务不针对 13 岁以下的任何人。我不会故意收集 13 岁以下儿童的个人身份信息。
+如果我发现 13 岁以下的儿童向我提供了个人信息，我会立即从我们的服务器中删除这些信息。
+如果您是父母或监护人并且您知道您的孩子向我们提供了个人信息，请与我联系，以便我能够采取必要的行动。
+
+9. 本隐私政策的变更
+我可能会不时更新我们的隐私政策。因此，建议您定期查看此页面以了解任何更改。
+我将通过在此页面上发布新的隐私政策来通知您任何更改。这些更改在此页面上发布后立即生效。
+
+10. 联系我们
+如果您对我的隐私政策有任何问题或建议，请随时通过 support@soundinstinct.com 与我联系"
+    </string>
+    <string name="content_about_app">"“问题或反馈？我们阅读每一封电子邮件
+有建议吗？ 请随时通过 support@outlookdaily.co 与我们联系”"</string>
+
+    <string name="sent">发送</string>
+    <string name="the_word_you_searched">请花点时间给应用评分。 谢谢你的支持！</string>
+    <string name="loading_ads_text">正在加载广告...</string>
+    <string name="version">版本</string>
+    <string name="guide">指导</string>
+    <string name="more_app">更多应用</string>
+    <string name="rate_app">评价应用</string>
+    <string name="feedback">反馈</string>
+    <string name="contac_us">联系我们</string>
+    <string name="scan_text">扫描文本</string>
+    <string name="enter_file_name">输入文件名</string>
+    <string name="scanned_text">扫描文本</string>
+    <string name="no_image">尚未扫描任何图像</string>
+    <string name="delete">删除</string>
+    <string name="translate">翻译</string>
+    <string name="speak">说话</string>
+    <string name="text">文本</string>
+    <string name="photo">照片</string>
+    <string name="rename">改名</string>
+    <string name="empty_name">名称无效</string>
+    <string name="we_will_absorb_and_upgrade_a_lot_more">我们将吸收和升级更多！ 谢谢！</string>
+    <string name="please_give_us_feedback">请给我们反馈</string>
+    <string name="do_you_like_the_app">你喜欢这个应用程序吗？</string>
+    <string name="confirm_delete">您正在删除一个文件。\n 此文件将完全消失</string>
+    <string name="delete_file">删除文件</string>
+    <string name="duplicate_name">名称已存在，请选择其他名称</string>
+    <string name="translate_to">翻译成</string>
+
+    <string name="guide_info_1">单击右侧顶部的功能按钮以创建您的内容</string>
+    <string name="guide_info_2">单击“内容”部分并选择您喜欢的主题选项</string>
+    <string name="guide_info_3">单击“添加”按钮以创建更多主题</string>
+    <string name="guide_info_4">水平滚动以选择您最喜欢的旋转。 单击“+”按钮从轮子中添加更多答案</string>
+    <string name="guide_info_5">水平滚动以选择您最喜欢的旋转。 单击“+”按钮从轮子中添加更多答案</string>
+
+    <string name="loading_api">为您获取语言</string>
+    <string name="body_name_app">工具、生活方式</string>
+
+    <string name="error_max_name">名称最多为 15 个字符。</string>
+    <string name="loading" translatable="false">正在加载...</string>
+
+    <string name="google_admob_app_id" translatable="false">ca-app-pub-6445739239297382~2703137382</string>
+
+    // in app purchase
+    <string name="enjoy_your_premium_member">享受您的高级会员</string>
+    <string name="continues">继续</string>
+    <string name="in_app_month">/月</string>
+    <string name="in_app_forever">/永远</string>
+    <string name="in_app_year">/年</string>
+    <string name="save_in_app">节省 ％</string>
+
+    <string name="in_app_title_1_m">包月套餐</string>
+    <string name="in_app_content_1_m">获得 1 个月的高级特权。</string>
+
+    <string name="in_app_title_n_m">%s 个月包</string>
+    <string name="in_app_content_n_m">获得 %s 个月的高级权限。</string>
+
+    <string name="in_app_title_1_y">年包</string>
+    <string name="in_app_content_1_y">获得 1 年的高级特权。</string>
+
+    <string name="in_app_title_f_r">永远的包</string>
+    <string name="in_app_content_f_r">永久获得高级特权。</string>
+
+    // data default
+
+    <string name="title_default_1">我想吃的是..</string>
+    <string name="content_default_1">比萨</string>
+    <string name="content_default_2">汉堡包</string>
+    <string name="content_default_3">普丁</string>
+    <string name="content_default_4">马卡龙</string>
+    <string name="content_default_5">牛排</string>
+    <string name="content_default_6">炸鸡</string>
+    <string name="content_default_7">中国菜</string>
+    <string name="content_default_8">意大利面</string>
+
+    <string name="title_default_2">有趣的地方去</string>
+    <string name="content_default_1_1">公园</string>
+    <string name="content_default_2_1">餐厅</string>
+    <string name="content_default_3_1">博物馆</string>
+    <string name="content_default_4_1">操场</string>
+    <string name="content_default_5_1">家</string>
+    <string name="content_default_6_1">电影院</string>
+
+    <string name="title_default_3">喝酒的黄金机会</string>
+    <string name="content_default_1_2">女生喝酒</string>
+    <string name="content_default_2_2">男孩喝</string>
+    <string name="content_default_3_2">在你旁边</string>
+    <string name="content_default_4_2">旋转的人</string>
+    <string name="content_default_5_2">在你对面</string>
+
+    <string name="title_default_4">做家务的机会</string>
+    <string name="content_default_1_3">那位女孩</string>
+    <string name="content_default_2_3">男孩</string>
+    <string name="content_default_3_3">妈妈</string>
+    <string name="content_default_4_3">爸爸</string>
+    <string name="content_default_5_3">祖母</string>
+    <string name="content_default_6_3">祖父</string>
+    <string name="content_default_7_3">最小的</string>
+
+    <string name="title_default_5">今天选择幸运色</string>
+    <string name="content_default_1_4">红色的</string>
+    <string name="content_default_2_4">黄色</string>
+    <string name="content_default_3_4">蓝色的</string>
+    <string name="content_default_4_4">绿色的</string>
+    <string name="content_default_5_4">紫色的</string>
+    <string name="content_default_6_4">白色的</string>
+    <string name="content_default_7_4">黑色的</string>
+
+    <string name="title_default_6">谁爱上了你？</string>
+    <string name="content_default_1_5">对面的女孩</string>
+    <string name="content_default_2_5">最短的头发</string>
+    <string name="content_default_3_5">最高的男孩</string>
+    <string name="content_default_4_5">对面的男孩</string>
+    <string name="content_default_5_5">最热的人</string>
+
+    // content
+    <string name="inactive">不活跃</string>
+    <string name="again">再次</string>
+    <string name="share">分享</string>
+    <string name="content">内容</string>
+    <string name="active_all">全部激活</string>
+    <string name="add">添加</string>
+    <string name="edit">编辑</string>
+    <string name="suggest">建议</string>
+    <string name="your_content">您的内容</string>
+    <string name="hint_edit_spin">例：博物馆</string>
+    <string name="spin_theme">旋转主题</string>
+    <string name="full_color">饱满的色彩</string>
+    <string name="green_color">绿色的</string>
+    <string name="red_color">红色的</string>
+    <string name="blue_color">蓝色的</string>
+    <string name="purple_color">紫色的</string>
+    <string name="yellow_color">黄色</string>
+    <string name="save">节省</string>
+    <string name="add_content">添加内容</string>
+    <string name="name_content">名称内容</string>
+
+    <string name="search">语言搜索</string>
+    <string name="search_error">找不到“%s”</string>
+    <string name="try_searching">尝试使用不同的拼写或关键字再次搜索。</string>
+    <string name="app_name_setting">旋转轮</string>
+    <string name="sound">声音</string>
+    <string name="error_character">最多 14 个字符</string>
+    <string name="empty_view">请在下方的 \n 按钮处添加内容</string>
+    <string name="note">笔记</string>
+    <string name="please_turn_on_the_network">请打开网络\n以获得更好的体验</string>
+    <string name="thank_for_your_response">感谢您的答复 ！</string>
+    <string name="we_will_listen_to_your_comments">我们将听取您的意见并\n努力改进产品！</string>
+    <string name="delete_this_content">删除此内容</string>
+    <string name="error_min_content">最少内容4条。\n 请多填写</string>
+    <string name="error_max_content">您已达到\n 内容数量的限制。\n 请升级以获得更多选择。</string>
+    <string name="error_max_content_in_app">您已达到内容数量的限制。</string>
+    <string name="error_blank_content">内容不能留空</string>
+    <string name="update">更新</string>
+    <string name="error_blank_question">请填写问题信息</string>
+    <string name="error_same_name">此内容已存在。请输入其他内容！</string>
+
+</resources>

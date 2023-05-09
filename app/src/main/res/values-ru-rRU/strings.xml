@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Вращающееся колесо - Решение ангела</string>
+
+    <string name="confirm">Подтверждать</string>
+    <string name="cancel_dialog">Отмена</string>
+    <string name="agree_dialog">Соглашаться</string>
+    <string name="add_record">Добавить запись</string>
+    <string name="select_language">Выберите язык</string>
+    <string name="next">Следующий</string>
+    <string name="ok">ХОРОШО</string>
+
+    <!--FONT-->
+    <string name="font_italic" translatable="false">fonts/Roboto-BlackItalic.ttf</string>
+    <string name="font_bold" translatable="false">fonts/Roboto-Bold.ttf</string>
+    <string name="font_regular" translatable="false">fonts/Roboto-Regular.ttf</string>
+    <string name="font_black" translatable="false">fonts/Roboto-Black.ttf</string>
+    <string name="font_medium" translatable="false">font/Roboto-Medium.ttf</string>
+
+    <string name="txt_language_in" translatable="false">индонезийский</string>
+    <string name="txt_language_thai" translatable="false">Тайский</string>
+    <string name="txt_language_malay" translatable="false">малазийский</string>
+    <string name="txt_language_en">Английский</string>
+    <string name="txt_language_vi">вьетнамский</string>
+    <string name="txt_language_spanish">испанский</string>
+    <string name="txt_language_portuguese">Portuguese</string>
+    <string name="txt_language_russiane">Русский</string>
+    <string name="txt_language_ja">Японский</string>
+    <string name="txt_language_korean">Корейский</string>
+    <string name="txt_language_french">Французский</string>
+    <string name="txt_language_german">Немецкий</string>
+    <string name="txt_language_arabic" translatable="false">арабский</string>
+    <string name="txt_language_chi">китайский язык</string>
+    <string name="txt_language_chinese_Simplified" translatable="false">Китайский упрощенный )</string>
+    <string name="txt_language_chinese_Traditional" translatable="false">Китайский традиционный)</string>
+
+    <string name="onboard_title_1">Примите решение вашего ангела</string>
+    <string name="onboard_content_1">Существует множество вариантов заполнения опции вращения колеса.</string>
+
+    <string name="onboard_title_2">Самый смешной спин</string>
+    <string name="onboard_content_2">Всплывающее окно геймификации включает в себя колесо удачи или методы геймификации, чтобы развлечь клиентов.</string>
+
+    <string name="onboard_title_3">Создайте удивительный результат</string>
+    <string name="onboard_content_3">Использование вилли, в свою очередь, поможет вам добиться выдающихся результатов.</string>
+
+    <string name="skip">Пропускать</string>
+    <string name="lever">Уровень</string>
+    <string name="home">Дом</string>
+    <string name="setting">Параметр</string>
+    <string name="open">Открытым</string>
+    <string name="search_here">Поищи здесь</string>
+
+    <string name="or">ИЛИ ЖЕ</string>
+    <string name="browse">Просматривать</string>
+    <string name="copy">Копировать</string>
+    <string name="check">Проверять</string>
+    <string name="copy_to_clib_board">Сохранить в буфер обмена</string>
+    <string name="language">Язык</string>
+    <string name="privacy">Конфиденциальность</string>
+    <string name="about_app">О приложении</string>
+
+    <string name="title_privacy">"MERRYBLUE создал приложение Spin Wheel как бесплатное приложение.
+"</string>
+    <string name="content_privacy">"Эта СЛУЖБА предоставляется компанией MERRYBLUE бесплатно и предназначена для использования в исходном виде.
+Эта страница используется для информирования посетителей о моих правилах сбора, использования и раскрытия Личной информации, если кто-то решил воспользоваться моим Сервисом.
+Если вы решите использовать мой Сервис, вы соглашаетесь на сбор и использование информации в связи с этой политикой.
+Личная информация, которую я собираю, используется для предоставления и улучшения Сервиса. Я не буду использовать или передавать вашу информацию кому-либо, кроме случаев, описанных в настоящей Политике конфиденциальности.
+- Изображения: мы не несем ответственности за изображения, созданные пользователями или найденные в Интернете.
+- Истории: созданные пользователями истории в приложении с политическими, оскорбительными или вводящими в заблуждение целями.
+- Мы не несем ответственности, когда пользователи приложения в злонамеренных, политических целях голосуют и нарушают применимые национальные законы.
+1. Сбор и использование информации
+Для лучшего опыта использования нашего Сервиса я могу потребовать от вас предоставить нам определенную личную информацию. Информация, которую я запрашиваю, будет храниться на вашем устройстве и никоим образом не будет собираться мной.
+Приложение использует сторонние сервисы, которые могут собирать информацию, используемую для вашей идентификации.
+В приложении можно использовать ссылки на политики конфиденциальности сторонних поставщиков услуг.
+
+2. Данные журнала
+Я хочу сообщить вам, что всякий раз, когда вы используете мой Сервис, в случае ошибки в приложении я собираю данные и информацию (через сторонние продукты) на вашем телефоне под названием «Данные журнала».
+Эти данные журнала могут включать в себя такую ​​информацию, как адрес интернет-протокола («IP») вашего устройства, имя устройства, версия операционной системы, конфигурация приложения при использовании моего Сервиса, время и дата использования вами Сервиса и другие статистические данные. .
+
+3. Файлы cookie
+Файлы cookie — это файлы с небольшим объемом данных, которые обычно используются в качестве анонимных уникальных идентификаторов.
+Они отправляются в ваш браузер с веб-сайтов, которые вы посещаете, и сохраняются во внутренней памяти вашего устройства.
+Эта Служба не использует эти «куки» в явном виде. Однако приложение может использовать сторонний код и библиотеки, которые используют файлы cookie для сбора информации и улучшения своих услуг.
+У вас есть возможность либо принять, либо отказаться от этих файлов cookie и узнать, когда файл cookie отправляется на ваше устройство. Если вы решите отказаться от наших файлов cookie, вы не сможете использовать некоторые части этой Услуги.
+
+4. Поставщики услуг
+Разрешения, которые мы используем в приложении:
+android.permission.WRITE_EXTERNAL_STORAGE
+
+android.permission.READ_EXTERNAL_STORAGE
+
+android.permission.WAKE_LOCK
+
+android.permission.VIBRATE
+
+android.permission.ИНТЕРНЕТ
+
+android.permission.ACCESS_NETWORK_STATE
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+NOTE:
+- We are committed to using the above rights only for the purpose of serving the function of the application and fully comply with the policies of google play and not for any other purpose.
+
+- All information provided by users will only be stored on their device and we do not collect and store it in any form (including on servers or on cloud services…).
+
+- We do not disclose, store or share any sensitive information of users (email, bank account…).
+
+- Any questions or complaints please contact us via email: support@outlookdaily.co
+
+5. Service Providers
+I may employ third-party companies and individuals due to the following reasons:
+To facilitate our Service;
+
+To provide the Service on our behalf;
+
+To perform Service-related services;
+To assist us in analyzing how our Service is used.
+I want to inform users of this Service that these third parties have access to your Personal Information.
+The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+
+6. Security
+I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it.
+But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+
+7. Links to Other Sites
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site.
+Note that these external sites are not operated by me.Therefore, I strongly advise you to review the Privacy Policy of these websites.
+
+I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+8. Children’s Privacy
+These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13.
+In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers.
+If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to take necessary actions.
+
+9. Changes to This Privacy Policy
+I may update our Privacy Policy from time to time.Thus, you are advised to review this page periodically for any changes.
+I will notify you of any changes by posting the new Privacy Policy on this page.These changes are effective immediately after they are posted on this page.
+
+10. Свяжитесь с нами
+Если у вас есть какие-либо вопросы или предложения относительно моей Политики конфиденциальности, не стесняйтесь обращаться ко мне по адресу support@soundinstinct.com."
+    </string>
+    <string name="content_about_app">"Вопросы или отзывы? Мы читаем каждое письмо
+Есть предложения? Пожалуйста, не стесняйтесь обращаться к нам по адресу support@outlookdaily.co"</string>
+
+    <string name="sent">Отправил</string>
+    <string name="the_word_you_searched">Пожалуйста, найдите минутку, чтобы оценить приложение. Спасибо за поддержку!</string>
+    <string name="loading_ads_text">Загрузка объявлений...</string>
+    <string name="version">Более</string>
+    <string name="guide">Руководство</string>
+    <string name="more_app">Больше приложений</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="feedback">Обратная связь</string>
+    <string name="contac_us">Свяжитесь с нами</string>
+    <string name="scan_text">Сканировать текст</string>
+    <string name="enter_file_name">Введите имя файла</string>
+    <string name="scanned_text">Отсканированный текст</string>
+    <string name="no_image">Изображения еще не отсканированы</string>
+    <string name="delete">Удалить</string>
+    <string name="translate">Перевести</string>
+    <string name="speak">Говорить</string>
+    <string name="text">Текст</string>
+    <string name="photo">Фото</string>
+    <string name="rename">Переименовать</string>
+    <string name="empty_name">Имя недействительно</string>
+    <string name="we_will_absorb_and_upgrade_a_lot_more">Мы поглотим и модернизируем намного больше! Благодарю вас!</string>
+    <string name="please_give_us_feedback">Пожалуйста, дайте нам обратную связь</string>
+    <string name="do_you_like_the_app">Вам нравится приложение?</string>
+    <string name="confirm_delete">Вы удаляете файл.\n Этот файл полностью исчезнет</string>
+    <string name="delete_file">Удалить файл</string>
+    <string name="duplicate_name">Имя уже существует, выберите другое имя</string>
+    <string name="translate_to">Перевести на</string>
+
+    <string name="guide_info_1">Нажмите функциональную кнопку в верхней части правой стороны, чтобы создать свой контент.</string>
+    <string name="guide_info_2">Щелкните раздел «Содержание» и выберите понравившийся вариант темы.</string>
+    <string name="guide_info_3">Нажмите кнопку «Добавить», чтобы создать больше тем</string>
+    <string name="guide_info_4">Прокрутите горизонтально, чтобы выбрать свой любимый спин. Нажмите кнопку «+», чтобы добавить больше ответов из колеса</string>
+    <string name="guide_info_5">Нажмите кнопку «Редактировать», чтобы отредактировать содержимое колеса вращения.</string>
+
+    <string name="loading_api">Получение языка для вас</string>
+    <string name="body_name_app">Инструменты, образ жизни</string>
+
+    <string name="error_max_name">Максимальное имя — 15 символов.</string>
+    <string name="loading" translatable="false">Загрузка...</string>
+
+    <string name="google_admob_app_id" translatable="false">ca-app-pub-6445739239297382~2703137382</string>
+
+    // in app purchase
+    <string name="enjoy_your_premium_member">Наслаждайтесь своим премиум-членом</string>
+    <string name="continues">Продолжать</string>
+    <string name="in_app_month">/месяц</string>
+    <string name="in_app_forever">/навсегда</string>
+    <string name="in_app_year">/год</string>
+    <string name="save_in_app">Сохранять %</string>
+
+    <string name="in_app_title_1_m">Ежемесячный пакет</string>
+    <string name="in_app_content_1_m">Получите Премиум привилегии на 1 месяц.</string>
+
+    <string name="in_app_title_n_m">Пакет на %s месяцев</string>
+    <string name="in_app_content_n_m">Получите привилегии Premium на %s месяц.</string>
+
+    <string name="in_app_title_1_y">Годовой пакет</string>
+    <string name="in_app_content_1_y">Получите привилегии Премиум на 1 год.</string>
+
+    <string name="in_app_title_f_r">Пакет навсегда</string>
+    <string name="in_app_content_f_r">Получите привилегии Премиум навсегда.</string>
+
+    // data default
+
+    <string name="title_default_1">Что я хочу есть..</string>
+    <string name="content_default_1">Пицца</string>
+    <string name="content_default_2">Гамбургер</string>
+    <string name="content_default_3">Путин</string>
+    <string name="content_default_4">Макароны</string>
+    <string name="content_default_5">Стейк из говядины</string>
+    <string name="content_default_6">Жареная курочка</string>
+    <string name="content_default_7">китайская еда</string>
+    <string name="content_default_8">Макароны</string>
+
+    <string name="title_default_2">Интересные места для посещения</string>
+    <string name="content_default_1_1">Парк</string>
+    <string name="content_default_2_1">Ресторан</string>
+    <string name="content_default_3_1">музей</string>
+    <string name="content_default_4_1">Детская площадка</string>
+    <string name="content_default_5_1">Дом</string>
+    <string name="content_default_6_1">Кинотеатр</string>
+
+    <string name="title_default_3">Золотой шанс выпить</string>
+    <string name="content_default_1_2">Девушки пьют</string>
+    <string name="content_default_2_2">Мальчики пьют</string>
+    <string name="content_default_3_2">Рядом с тобой</string>
+    <string name="content_default_4_2">Человек, который вращается</string>
+    <string name="content_default_5_2">Напротив тебя</string>
+
+    <string name="title_default_4">Возможность заниматься домашними делами</string>
+    <string name="content_default_1_3">Девушка</string>
+    <string name="content_default_2_3">Мальчик</string>
+    <string name="content_default_3_3">Мама</string>
+    <string name="content_default_4_3">Папа</string>
+    <string name="content_default_5_3">Бабушка</string>
+    <string name="content_default_6_3">Дедушка</string>
+    <string name="content_default_7_3">Самый молодой</string>
+
+    <string name="title_default_5">Выберите счастливый цвет сегодня</string>
+    <string name="content_default_1_4">Красный</string>
+    <string name="content_default_2_4">Желтый</string>
+    <string name="content_default_3_4">Синий</string>
+    <string name="content_default_4_4">Зеленый</string>
+    <string name="content_default_5_4">Пурпурный</string>
+    <string name="content_default_6_4">Белый</string>
+    <string name="content_default_7_4">Черный</string>
+
+    <string name="title_default_6">Кто в тебя влюблен?</string>
+    <string name="content_default_1_5">Девушка напротив</string>
+    <string name="content_default_2_5">Самые короткие волосы</string>
+    <string name="content_default_3_5">Самый высокий мальчик</string>
+    <string name="content_default_4_5">Мальчик напротив</string>
+    <string name="content_default_5_5">самый горячий парень</string>
+
+    // content
+    <string name="inactive">Неактивный</string>
+    <string name="again">Опять таки</string>
+    <string name="share">Делиться</string>
+    <string name="content">Содержание</string>
+    <string name="active_all">Активно все</string>
+    <string name="add">Добавлять</string>
+    <string name="edit">Редактировать</string>
+    <string name="suggest">Предложить</string>
+    <string name="your_content">Ваш контент</string>
+    <string name="hint_edit_spin">Например: музей</string>
+    <string name="spin_theme">Спиновая тема</string>
+    <string name="full_color">Полноцветный</string>
+    <string name="green_color">Зеленый</string>
+    <string name="red_color">Красный</string>
+    <string name="blue_color">Синий</string>
+    <string name="purple_color">Пурпурный</string>
+    <string name="yellow_color">Желтый</string>
+    <string name="save">Сохранять</string>
+    <string name="add_content">Добавить контент</string>
+    <string name="name_content">Содержание имени</string>
+
+    <string name="search">Поиск языка</string>
+    <string name="search_error">Не удалось найти «%s»</string>
+    <string name="try_searching">Попробуйте выполнить поиск еще раз, используя другое написание или ключевое слово.</string>
+    <string name="app_name_setting">Вращающееся колесо</string>
+    <string name="sound">Звук</string>
+    <string name="error_character">Максимум 14 символов</string>
+    <string name="empty_view">Пожалуйста, добавьте контент с помощью кнопки \n ниже</string>
+    <string name="note">Примечание</string>
+    <string name="please_turn_on_the_network">Пожалуйста, включите сеть \n для лучшего опыта</string>
+    <string name="thank_for_your_response">Спасибо за ваш ответ !</string>
+    <string name="we_will_listen_to_your_comments">Мы прислушаемся к вашим комментариям и\n поработаем над улучшением продукта!</string>
+    <string name="delete_this_content">Удалить этот контент</string>
+    <string name="error_min_content">Минимальное количество контента: 4.\nПожалуйста, заполните больше</string>
+    <string name="error_max_content">Вы достигли предела \n количества контента.\n Пожалуйста, обновите версию, чтобы получить больше возможностей.</string>
+    <string name="error_max_content_in_app">Вы достигли предела количества контента.</string>
+    <string name="error_blank_content">Содержание не может быть пустым</string>
+    <string name="update">Обновлять</string>
+    <string name="error_blank_question">Пожалуйста, заполните информацию о вопросе</string>
+    <string name="error_same_name">Этот контент уже существует. Пожалуйста, введите другой контент!</string>
+
+</resources>

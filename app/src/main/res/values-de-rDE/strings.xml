@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Drehrad - Angel Decision</string>
+
+    <string name="confirm">Bestätigen</string>
+    <string name="cancel_dialog">Absagen</string>
+    <string name="agree_dialog">Zustimmen</string>
+    <string name="add_record">Datensatz hinzufügen</string>
+    <string name="select_language">Sprache auswählen</string>
+    <string name="next">Sprache auswählen</string>
+    <string name="ok">OK</string>
+
+    <!--FONT-->
+    <string name="font_italic" translatable="false">fonts/Roboto-BlackItalic.ttf</string>
+    <string name="font_bold" translatable="false">fonts/Roboto-Bold.ttf</string>
+    <string name="font_regular" translatable="false">fonts/Roboto-Regular.ttf</string>
+    <string name="font_black" translatable="false">fonts/Roboto-Black.ttf</string>
+    <string name="font_medium" translatable="false">font/Roboto-Medium.ttf</string>
+
+    <string name="txt_language_in" translatable="false">Indonesisch</string>
+    <string name="txt_language_thai" translatable="false">Thailändisch</string>
+    <string name="txt_language_malay" translatable="false">Malaysisch</string>
+    <string name="txt_language_en">Englisch</string>
+    <string name="txt_language_vi">Vietnamesisch</string>
+    <string name="txt_language_spanish">Spanish</string>
+    <string name="txt_language_portuguese">Portugiesisch</string>
+    <string name="txt_language_russiane">Russisch</string>
+    <string name="txt_language_ja">Japanisch</string>
+    <string name="txt_language_korean">Koreanisch</string>
+    <string name="txt_language_french">Französisch</string>
+    <string name="txt_language_german">Deutsch</string>
+    <string name="txt_language_arabic" translatable="false">Arabisch</string>
+    <string name="txt_language_chi">Chinesisch</string>
+    <string name="txt_language_chinese_Simplified" translatable="false">Vereinfachtes Chinesisch )</string>
+    <string name="txt_language_chinese_Traditional" translatable="false">Chinesische Tradition)</string>
+
+    <string name="onboard_title_1">Treffen Sie Ihre Engelsentscheidung</string>
+    <string name="onboard_content_1">Es gibt zahlreiche Möglichkeiten, die Spin Wheel-Option zu füllen.</string>
+
+    <string name="onboard_title_2">Lustigster Spin</string>
+    <string name="onboard_content_2">Ein Gamification-Popup enthält ein Glücksrad oder Gamification-Methoden, um die Kunden zu unterhalten.</string>
+
+    <string name="onboard_title_3">Erstellen Sie ein überraschendes Ergebnis</string>
+    <string name="onboard_content_3">Die Verwendung des Wheelies hilft Ihnen wiederum dabei, herausragende Ergebnisse zu erzielen.</string>
+
+    <string name="skip">Überspringen</string>
+    <string name="lever">Eben</string>
+    <string name="home">Heim</string>
+    <string name="setting">Einstellung</string>
+    <string name="open">Offen</string>
+    <string name="search_here">Suche hier</string>
+
+    <string name="or">ODER</string>
+    <string name="browse">Durchsuche</string>
+    <string name="copy">Kopieren</string>
+    <string name="check">Prüfen</string>
+    <string name="copy_to_clib_board">In Zwischenablage speichern</string>
+    <string name="language">Sprache</string>
+    <string name="privacy">Privatsphäre</string>
+    <string name="about_app">Über App</string>
+
+    <string name="title_privacy">"MERRYBLUE hat die Spin Wheel App als kostenlose App entwickelt
+"</string>
+    <string name="content_privacy">"Dieser SERVICE wird von MERRYBLUE kostenlos zur Verfügung gestellt und ist für die Nutzung ohne Mängelgewähr bestimmt.
+Diese Seite wird verwendet, um Besucher über meine Richtlinien zur Erfassung, Verwendung und Offenlegung personenbezogener Daten zu informieren, wenn sich jemand entschieden hat, meinen Dienst zu nutzen.
+Wenn Sie sich dafür entscheiden, meinen Dienst zu nutzen, stimmen Sie der Erfassung und Verwendung von Informationen in Bezug auf diese Richtlinie zu.
+Die von mir erfassten personenbezogenen Daten werden zur Bereitstellung und Verbesserung des Dienstes verwendet. Ich werde Ihre Daten nicht verwenden oder an Dritte weitergeben, außer wie in dieser Datenschutzrichtlinie beschrieben.
+- Bilder: Wir sind nicht verantwortlich für die von Benutzern erstellten oder im Internet gesuchten Bildinhalte.
+- Geschichten: Benutzergenerierte Geschichten in der App für politische, beleidigende oder irreführende Zwecke.
+- Wir sind nicht verantwortlich, wenn Benutzer der Anwendung für böswillige Zwecke, politische Zwecke, wählen und gegen geltende nationale Gesetze verstoßen.
+1. Erfassung und Verwendung von Informationen
+Für ein besseres Erlebnis kann es bei der Nutzung unseres Dienstes erforderlich sein, dass Sie uns bestimmte personenbezogene Daten zur Verfügung stellen. Die von mir angeforderten Informationen werden auf Ihrem Gerät gespeichert und in keiner Weise von mir erfasst.
+Die App verwendet Dienste von Drittanbietern, die Informationen sammeln können, die zu Ihrer Identifizierung verwendet werden.
+In der App können Links zu den Datenschutzrichtlinien von Drittanbietern verwendet werden
+
+2. Protokolldaten
+Ich möchte Sie darüber informieren, dass ich bei jeder Nutzung meines Dienstes im Falle eines Fehlers in der App Daten und Informationen (über Produkte von Drittanbietern) auf Ihrem Telefon mit dem Namen Protokolldaten sammle.
+Diese Protokolldaten können Informationen wie die Internet Protocol („IP“)-Adresse Ihres Geräts, den Gerätenamen, die Betriebssystemversion, die Konfiguration der App bei der Nutzung meines Dienstes, die Uhrzeit und das Datum Ihrer Nutzung des Dienstes und andere Statistiken enthalten .
+
+3. Kekse
+Cookies sind Dateien mit einer kleinen Datenmenge, die üblicherweise als anonyme eindeutige Kennungen verwendet werden.
+Diese werden von den Websites, die Sie besuchen, an Ihren Browser gesendet und im internen Speicher Ihres Geräts gespeichert.
+Dieser Dienst verwendet diese „Cookies“ nicht ausdrücklich. Die App kann jedoch Code und Bibliotheken von Drittanbietern verwenden, die „Cookies“ verwenden, um Informationen zu sammeln und ihre Dienste zu verbessern.
+Sie haben die Möglichkeit, diese Cookies entweder zu akzeptieren oder abzulehnen und wissen, wann ein Cookie an Ihr Gerät gesendet wird. Wenn Sie unsere Cookies ablehnen, können Sie möglicherweise einige Teile dieses Dienstes nicht nutzen.
+
+4. Dienstleister
+Die Berechtigungen, die wir in der Anwendung verwenden:
+android.permission.WRITE_EXTERNAL_STORAGE
+
+android.permission.READ_EXTERNAL_STORAGE
+
+android.permission.WAKE_LOCK
+
+android.permission.VIBRATE
+
+android.permission.INTERNET
+
+android.permission.ACCESS_NETWORK_STATE
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+HINWEIS:
+- Wir verpflichten uns, die oben genannten Rechte nur zu verwenden, um die Funktion der Anwendung zu erfüllen und die Richtlinien von Google Play vollständig einzuhalten, und nicht für andere Zwecke.
+
+- Alle von Benutzern bereitgestellten Informationen werden nur auf ihrem Gerät gespeichert und wir sammeln und speichern sie in keiner Form (einschließlich auf Servern oder Cloud-Diensten …).
+
+- Wir geben keine sensiblen Informationen von Benutzern (E-Mail, Bankkonto…) weiter, speichern oder teilen sie nicht.
+
+- Bei Fragen oder Beschwerden kontaktieren Sie uns bitte per E-Mail: support@outlookdaily.co
+
+5. Dienstleister
+Ich kann aus folgenden Gründen Drittunternehmen und Einzelpersonen beschäftigen:
+Um unseren Service zu erleichtern;
+
+Um den Service in unserem Namen bereitzustellen;
+
+Um dienstbezogene Dienstleistungen zu erbringen;
+Um uns bei der Analyse der Nutzung unseres Dienstes zu unterstützen.
+Ich möchte Benutzer dieses Dienstes darüber informieren, dass diese Dritten Zugriff auf Ihre personenbezogenen Daten haben.
+Der Grund ist, die ihnen übertragenen Aufgaben in unserem Auftrag auszuführen. Sie sind jedoch verpflichtet, die Informationen nicht für andere Zwecke weiterzugeben oder zu verwenden.
+
+6. Sicherheit
+Ich schätze Ihr Vertrauen in die Bereitstellung Ihrer personenbezogenen Daten, daher bemühen wir uns, wirtschaftlich akzeptable Mittel zu deren Schutz einzusetzen.
+Denken Sie jedoch daran, dass keine Übertragungsmethode über das Internet oder elektronische Speichermethode 100 % sicher und zuverlässig ist, und ich kann ihre absolute Sicherheit nicht garantieren.
+
+7. Links zu anderen Websites
+Dieser Dienst kann Links zu anderen Websites enthalten. Wenn Sie auf einen Link eines Drittanbieters klicken, werden Sie zu dieser Website weitergeleitet.
+Beachten Sie, dass diese externen Websites nicht von mir betrieben werden. Daher rate ich Ihnen dringend, die Datenschutzrichtlinie dieser Websites zu lesen.
+
+Ich habe keine Kontrolle über und übernehme keine Verantwortung für die Inhalte, Datenschutzrichtlinien oder Praktiken von Websites oder Diensten Dritter.
+
+8. Datenschutz von Kindern
+Diese Dienste richten sich nicht an Personen unter 13 Jahren. Ich sammle wissentlich keine personenbezogenen Daten von Kindern unter 13 Jahren.
+Falls ich feststelle, dass mir ein Kind unter 13 Jahren personenbezogene Daten zur Verfügung gestellt hat, lösche ich diese unverzüglich von unseren Servern.
+Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und wissen, dass Ihr Kind uns personenbezogene Daten zur Verfügung gestellt hat, kontaktieren Sie mich bitte, damit ich die erforderlichen Maßnahmen ergreifen kann.
+
+9. Änderungen an dieser Datenschutzrichtlinie
+Ich kann unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Es wird daher empfohlen, diese Seite regelmäßig auf Änderungen zu überprüfen.
+Ich werde Sie über alle Änderungen informieren, indem ich die neue Datenschutzrichtlinie auf dieser Seite veröffentliche. Diese Änderungen treten sofort in Kraft, nachdem sie auf dieser Seite veröffentlicht wurden.
+
+10. Kontaktieren Sie uns
+Wenn Sie Fragen oder Anregungen zu meiner Datenschutzrichtlinie haben, zögern Sie nicht, mich unter support@soundinstinct.com zu kontaktieren"
+    </string>
+    <string name="content_about_app">"Fragen oder Feedback? Wir lesen jede einzelne E-Mail
+Haben Sie Vorschläge? Bitte zögern Sie nicht, uns unter support@outlookdaily.co zu erreichen."</string>
+
+    <string name="sent">Gesendet</string>
+    <string name="the_word_you_searched">Bitte nehmen Sie sich einen Moment Zeit, um die App zu bewerten. Danke für deine Unterstützung!</string>
+    <string name="loading_ads_text">Anzeigen werden geladen...</string>
+    <string name="version">Ausführung</string>
+    <string name="guide">Führen</string>
+    <string name="more_app">Mehr App</string>
+    <string name="rate_app">Bewertungs App</string>
+    <string name="feedback">Feedback</string>
+    <string name="contac_us">Kontaktieren Sie uns</string>
+    <string name="scan_text">Text scannen</string>
+    <string name="enter_file_name">Dateinamen eingeben</string>
+    <string name="scanned_text">Gescannter Text</string>
+    <string name="no_image">Es wurden noch keine Bilder gescannt</string>
+    <string name="delete">Löschen</string>
+    <string name="translate">Übersetzen</string>
+    <string name="speak">Sprechen</string>
+    <string name="text">Text</string>
+    <string name="photo">Foto</string>
+    <string name="rename">Umbenennen</string>
+    <string name="empty_name">Name ist ungültig</string>
+    <string name="we_will_absorb_and_upgrade_a_lot_more">Wir werden noch viel mehr aufnehmen und verbessern! Vielen Dank!</string>
+    <string name="please_give_us_feedback">Bitte geben Sie uns Feedback</string>
+    <string name="do_you_like_the_app">Gefällt dir die App?</string>
+    <string name="confirm_delete">Sie löschen eine Datei.\n Diese Datei wird vollständig verschwinden</string>
+    <string name="delete_file">Datei löschen</string>
+    <string name="duplicate_name">Name existiert bereits, bitte wählen Sie einen anderen Namen</string>
+    <string name="translate_to">Übersetzen ins</string>
+
+    <string name="guide_info_1">Klicken Sie auf die Funktionsschaltfläche oben rechts, um Ihren Inhalt zu erstellen</string>
+    <string name="guide_info_2">Klicken Sie auf den Abschnitt „Inhalt“ und wählen Sie Ihre bevorzugte Themenoption aus</string>
+    <string name="guide_info_3">Klicken Sie auf die Schaltfläche „Hinzufügen“, um weitere Themen zu erstellen</string>
+    <string name="guide_info_4">Scrollen Sie horizontal, um Ihren Lieblingsdreh auszuwählen. Klicken Sie auf die Schaltfläche „+“, um weitere Antworten aus dem Rad hinzuzufügen</string>
+    <string name="guide_info_5">Klicken Sie auf die Schaltfläche „Bearbeiten“, um den Inhalt Ihres Drehrads zu bearbeiten</string>
+
+    <string name="loading_api">Die Sprache für Sie bekommen</string>
+    <string name="body_name_app">Werkzeuge, Lebensstil</string>
+
+    <string name="error_max_name">Der Name darf maximal 15 Zeichen lang sein.</string>
+    <string name="loading" translatable="false">Wird geladen...</string>
+
+    <string name="google_admob_app_id" translatable="false">ca-app-pub-6445739239297382~2703137382</string>
+
+    // in app purchase
+    <string name="enjoy_your_premium_member">Genießen Sie Ihr Premium-Mitglied</string>
+    <string name="continues">Fortsetzen</string>
+    <string name="in_app_month">/Monat</string>
+    <string name="in_app_forever">/bis in alle Ewigkeit</string>
+    <string name="in_app_year">/Jahr</string>
+    <string name="save_in_app">Speichern %</string>
+
+    <string name="in_app_title_1_m">Monatliches Paket</string>
+    <string name="in_app_content_1_m">Erhalten Sie Premium-Privilegien für 1 Monat.</string>
+
+    <string name="in_app_title_n_m">%s Monate Paket</string>
+    <string name="in_app_content_n_m">Erhalten Sie Premium-Privilegien für %s Monat.</string>
+
+    <string name="in_app_title_1_y">Jahrespaket</string>
+    <string name="in_app_content_1_y">Erhalten Sie Premium-Privilegien für 1 Jahr.</string>
+
+    <string name="in_app_title_f_r">Paket für immer</string>
+    <string name="in_app_content_f_r">Erhalten Sie Premium-Privilegien für immer.</string>
+
+    // data default
+
+    <string name="title_default_1">Was ich essen möchte ist..</string>
+    <string name="content_default_1">Pizza</string>
+    <string name="content_default_2">Hamburger</string>
+    <string name="content_default_3">Poutine</string>
+    <string name="content_default_4">Makronen</string>
+    <string name="content_default_5">Beefsteak</string>
+    <string name="content_default_6">Gebratenes Huhn</string>
+    <string name="content_default_7">chinesisches Essen</string>
+    <string name="content_default_8">Pasta</string>
+
+    <string name="title_default_2">Interessante Ausflugsziele</string>
+    <string name="content_default_1_1">Park</string>
+    <string name="content_default_2_1">Restaurant</string>
+    <string name="content_default_3_1">Museum</string>
+    <string name="content_default_4_1">Spielplatz</string>
+    <string name="content_default_5_1">Heim</string>
+    <string name="content_default_6_1">Kino</string>
+
+    <string name="title_default_3">Goldene Chance zu trinken</string>
+    <string name="content_default_1_2">Mädchen trinken</string>
+    <string name="content_default_2_2">Jungen trinken</string>
+    <string name="content_default_3_2">Neben dir</string>
+    <string name="content_default_4_2">Person, die sich dreht</string>
+    <string name="content_default_5_2">Dir gegenüber</string>
+
+    <string name="title_default_4">Möglichkeit, Hausarbeit zu erledigen</string>
+    <string name="content_default_1_3">Das Mädchen</string>
+    <string name="content_default_2_3">Der Junge</string>
+    <string name="content_default_3_3">Mama</string>
+    <string name="content_default_4_3">Papa</string>
+    <string name="content_default_5_3">Oma</string>
+    <string name="content_default_6_3">Großvater</string>
+    <string name="content_default_7_3">Der jüngste</string>
+
+    <string name="title_default_5">Wählen Sie noch heute eine glückliche Farbe</string>
+    <string name="content_default_1_4">Rot</string>
+    <string name="content_default_2_4">Gelb</string>
+    <string name="content_default_3_4">Blau</string>
+    <string name="content_default_4_4">Grün</string>
+    <string name="content_default_5_4">Violett</string>
+    <string name="content_default_6_4">Weiß</string>
+    <string name="content_default_7_4">Schwarz</string>
+
+    <string name="title_default_6">Wer ist in dich verliebt?</string>
+    <string name="content_default_1_5">Mädchen gegenüber</string>
+    <string name="content_default_2_5">Kürzestes Haar</string>
+    <string name="content_default_3_5">Größter Junge</string>
+    <string name="content_default_4_5">Junge gegenüber</string>
+    <string name="content_default_5_5">Der heißeste Typ</string>
+
+    // content
+    <string name="inactive">Inaktiv</string>
+    <string name="again">Wieder</string>
+    <string name="share">Teilen</string>
+    <string name="content">Inhalt</string>
+    <string name="active_all">Alle aktiv</string>
+    <string name="add">Hinzufügen</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="suggest">Empfehlen</string>
+    <string name="your_content">Ihre Inhalte</string>
+    <string name="hint_edit_spin">Bsp.: Museum</string>
+    <string name="spin_theme">Spin-Thema</string>
+    <string name="full_color">Volle Farbe</string>
+    <string name="green_color">Grün</string>
+    <string name="red_color">Rot</string>
+    <string name="blue_color">Blau</string>
+    <string name="purple_color">Violett</string>
+    <string name="yellow_color">Gelb</string>
+    <string name="save">Speichern</string>
+    <string name="add_content">Inhalt hinzufügen</string>
+    <string name="name_content">Inhalt benennen</string>
+
+    <string name="search">Sprachsuche</string>
+    <string name="search_error">„%s“ konnte nicht gefunden werden</string>
+    <string name="try_searching">Versuchen Sie erneut, mit einer anderen Schreibweise oder einem anderen Schlüsselwort zu suchen.</string>
+    <string name="app_name_setting">Drehrad</string>
+    <string name="sound">Klang</string>
+    <string name="error_character">Maximal 14 Zeichen</string>
+    <string name="empty_view">Bitte fügen Sie Inhalte über die Schaltfläche \n unten hinzu</string>
+    <string name="note">Notiz</string>
+    <string name="please_turn_on_the_network">Bitte schalten Sie das Netzwerk \n für eine bessere Erfahrung ein</string>
+    <string name="thank_for_your_response">Vielen Dank für Ihre Antwort !</string>
+    <string name="we_will_listen_to_your_comments">Wir werden auf Ihre Kommentare hören und\n daran arbeiten, das Produkt besser zu verbessern!</string>
+    <string name="delete_this_content">Löschen Sie diesen Inhalt</string>
+    <string name="error_min_content">Die Mindestmenge an Inhalten beträgt 4.\n Bitte füllen Sie mehr aus</string>
+    <string name="error_max_content">Sie haben Ihr Inhaltslimit \n erreicht.\n Bitte führen Sie ein Upgrade durch, um mehr Auswahlmöglichkeiten zu erhalten.</string>
+    <string name="error_max_content_in_app">Sie haben Ihr Limit für die Menge an Inhalten erreicht.</string>
+    <string name="error_blank_content">Inhalt darf nicht leer bleiben</string>
+    <string name="update">Aktualisieren</string>
+    <string name="error_blank_question">Bitte geben Sie die Frageninformationen ein</string>
+    <string name="error_same_name">Dieser Inhalt ist bereits vorhanden. Bitte geben Sie andere Inhalte ein!</string>
+
+</resources>

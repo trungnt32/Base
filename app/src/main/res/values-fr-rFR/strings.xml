@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roue tournante - Angel Decision</string>
+
+    <string name="confirm">Confirmer</string>
+    <string name="cancel_dialog">Annuler</string>
+    <string name="agree_dialog">Accepter</string>
+    <string name="add_record">Ajouter un enregistrement</string>
+    <string name="select_language">Choisir la langue</string>
+    <string name="next">Prochain</string>
+    <string name="ok">D\'ACCORD</string>
+
+    <!--FONT-->
+    <string name="font_italic" translatable="false">fonts/Roboto-BlackItalic.ttf</string>
+    <string name="font_bold" translatable="false">fonts/Roboto-Bold.ttf</string>
+    <string name="font_regular" translatable="false">fonts/Roboto-Regular.ttf</string>
+    <string name="font_black" translatable="false">fonts/Roboto-Black.ttf</string>
+    <string name="font_medium" translatable="false">font/Roboto-Medium.ttf</string>
+
+    <string name="txt_language_in" translatable="false">Indonésien</string>
+    <string name="txt_language_thai" translatable="false">Thaïlandais</string>
+    <string name="txt_language_malay" translatable="false">Malaisien</string>
+    <string name="txt_language_en">Anglais</string>
+    <string name="txt_language_vi">Vietnamien</string>
+    <string name="txt_language_spanish">Espagnol</string>
+    <string name="txt_language_portuguese">Portugais</string>
+    <string name="txt_language_russiane">Russe</string>
+    <string name="txt_language_ja">Japonais</string>
+    <string name="txt_language_korean">Coréen</string>
+    <string name="txt_language_french">Français</string>
+    <string name="txt_language_german">Allemand</string>
+    <string name="txt_language_arabic" translatable="false">Arabe</string>
+    <string name="txt_language_chi">Chinois</string>
+    <string name="txt_language_chinese_Simplified" translatable="false">Chinois simplifié )</string>
+    <string name="txt_language_chinese_Traditional" translatable="false">Chinois (Traditionnel)</string>
+
+    <string name="onboard_title_1">Prenez votre décision d\'ange</string>
+    <string name="onboard_content_1">Il existe de nombreuses options pour remplir l\'option de roue de rotation.</string>
+
+    <string name="onboard_title_2">Le tour le plus drôle</string>
+    <string name="onboard_content_2">Une fenêtre contextuelle de gamification comprend une roue de fortune ou des méthodes de gamification pour divertir les clients.</string>
+
+    <string name="onboard_title_3">Créer un résultat surprenant</string>
+    <string name="onboard_content_3">L\'utilisation du wheelie vous aide à obtenir des résultats importants à votre tour.</string>
+
+    <string name="skip">Sauter</string>
+    <string name="lever">Niveau</string>
+    <string name="home">Maison</string>
+    <string name="setting">Paramètre</string>
+    <string name="open">Ouvert</string>
+    <string name="search_here">Cherche ici</string>
+
+    <string name="or">OU</string>
+    <string name="browse">Parcourir</string>
+    <string name="copy">Copie</string>
+    <string name="check">Vérifier</string>
+    <string name="copy_to_clib_board">Enregistrer dans le presse-papiers</string>
+    <string name="language">Langue</string>
+    <string name="privacy">Intimité</string>
+    <string name="about_app">À propos de l\'application</string>
+
+    <string name="title_privacy">"MERRYBLUE a construit l'application Spin Wheel en tant qu'application gratuite
+"</string>
+    <string name="content_privacy">"Ce SERVICE est fourni gratuitement par MERRYBLUE et est destiné à être utilisé tel quel.
+Cette page est utilisée pour informer les visiteurs de mes politiques de collecte, d'utilisation et de divulgation des informations personnelles si quelqu'un décide d'utiliser mon service.
+Si vous choisissez d'utiliser mon service, vous acceptez la collecte et l'utilisation d'informations en relation avec cette politique.
+Les informations personnelles que je collecte sont utilisées pour fournir et améliorer le service. Je n'utiliserai ni ne partagerai vos informations avec qui que ce soit, sauf comme décrit dans la présente politique de confidentialité.
+- Images : nous ne sommes pas responsables du contenu des images créées par les utilisateurs ou recherchées sur Internet.
+- Histoires : histoires générées par les utilisateurs dans l'application à des fins politiques, offensantes ou trompeuses.
+- Nous ne sommes pas responsables lorsque les utilisateurs de l'application à des fins malveillantes, à des fins politiques, votent et violent les lois nationales applicables.
+1. Collecte et utilisation des informations
+Pour une meilleure expérience, lors de l'utilisation de notre service, je peux vous demander de nous fournir certaines informations personnellement identifiables. Les informations que je demande seront conservées sur votre appareil et ne seront en aucun cas collectées par moi.
+L'application utilise des services tiers qui peuvent collecter des informations utilisées pour vous identifier.
+Des liens vers les politiques de confidentialité des fournisseurs de services tiers peuvent être utilisés dans l'application
+
+2. Données de journal
+Je tiens à vous informer que chaque fois que vous utilisez mon service, en cas d'erreur dans l'application, je collecte des données et des informations (via des produits tiers) sur votre téléphone, appelées Log Data.
+Ces données de journal peuvent inclure des informations telles que l'adresse de protocole Internet (""IP"") de votre appareil, le nom de l'appareil, la version du système d'exploitation, la configuration de l'application lors de l'utilisation de mon service, l'heure et la date de votre utilisation du service et d'autres statistiques. .
+
+3. Cookies
+Les cookies sont des fichiers contenant une petite quantité de données qui sont couramment utilisés comme identifiants uniques anonymes.
+Ceux-ci sont envoyés à votre navigateur à partir des sites Web que vous visitez et sont stockés dans la mémoire interne de votre appareil.
+Ce Service n'utilise pas explicitement ces « cookies ». Cependant, l'application peut utiliser du code tiers et des bibliothèques qui utilisent des ""cookies"" pour collecter des informations et améliorer leurs services.
+Vous avez la possibilité d'accepter ou de refuser ces cookies et de savoir quand un cookie est envoyé sur votre appareil. Si vous choisissez de refuser nos cookies, vous ne pourrez peut-être pas utiliser certaines parties de ce service.
+
+4. Fournisseurs de services
+Les autorisations que nous utilisons dans l'application :
+android.permission.WRITE_EXTERNAL_STORAGE
+
+android.permission.READ_EXTERNAL_STORAGE
+
+android.permission.WAKE_LOCK
+
+android.permission.VIBRATE
+
+android.permission.INTERNET
+
+android.permission.ACCESS_NETWORK_STATE
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+REMARQUE:
+- Nous nous engageons à utiliser les droits ci-dessus uniquement dans le but de servir la fonction de l'application et de nous conformer pleinement aux politiques de Google Play et à aucune autre fin.
+
+- Toutes les informations fournies par les utilisateurs ne seront stockées que sur leur appareil et nous ne les collectons et ne les stockons sous aucune forme (y compris sur des serveurs ou sur des services cloud…).
+
+- Nous ne divulguons, stockons ou partageons aucune information sensible des utilisateurs (email, compte bancaire…).
+
+- Pour toute question ou réclamation, veuillez nous contacter par e-mail : support@outlookdaily.co
+
+5. Fournisseurs de services
+Je peux faire appel à des sociétés tierces et à des particuliers pour les raisons suivantes :
+Pour faciliter notre Service ;
+
+Pour fournir le Service en notre nom ;
+
+Pour effectuer des services liés au Service ;
+Pour nous aider à analyser comment notre Service est utilisé.
+Je souhaite informer les utilisateurs de ce service que ces tiers ont accès à vos informations personnelles.
+La raison est d'accomplir les tâches qui leur sont confiées en notre nom. Cependant, ils sont tenus de ne pas divulguer ou utiliser les informations à d'autres fins.
+
+6. Sécurité
+J'apprécie votre confiance en nous fournissant vos informations personnelles, nous nous efforçons donc d'utiliser des moyens commercialement acceptables pour les protéger.
+Mais rappelez-vous qu'aucune méthode de transmission sur Internet ou méthode de stockage électronique n'est sûre et fiable à 100 %, et je ne peux pas garantir sa sécurité absolue.
+
+7. Liens vers d'autres sites
+Ce Service peut contenir des liens vers d'autres sites. Si vous cliquez sur un lien tiers, vous serez dirigé vers ce site.
+Notez que ces sites externes ne sont pas exploités par moi. Par conséquent, je vous conseille fortement de consulter la politique de confidentialité de ces sites Web.
+
+Je n'ai aucun contrôle et n'assume aucune responsabilité quant au contenu, aux politiques de confidentialité ou aux pratiques des sites ou services tiers.
+
+8. Confidentialité des enfants
+Ces Services ne s'adressent à personne de moins de 13 ans. Je ne collecte pas sciemment d'informations personnellement identifiables auprès d'enfants de moins de 13 ans.
+Dans le cas où je découvre qu'un enfant de moins de 13 ans m'a fourni des informations personnelles, je les supprime immédiatement de nos serveurs.
+Si vous êtes un parent ou un tuteur et que vous savez que votre enfant nous a fourni des informations personnelles, veuillez me contacter afin que je puisse prendre les mesures nécessaires.
+
+9. Modifications de cette politique de confidentialité
+Je peux mettre à jour notre politique de confidentialité de temps en temps. Ainsi, il vous est conseillé de consulter cette page périodiquement pour tout changement.
+Je vous informerai de tout changement en publiant la nouvelle politique de confidentialité sur cette page. Ces modifications entrent en vigueur immédiatement après leur publication sur cette page.
+
+10. Contactez-nous
+Si vous avez des questions ou des suggestions concernant ma politique de confidentialité, n'hésitez pas à me contacter à support@soundinstinct.com"
+    </string>
+    <string name="content_about_app">"Des questions ou des commentaires ? Nous lisons chaque e-mail
+Vous avez des suggestions ? N'hésitez pas à nous contacter à support@outlookdaily.co"</string>
+
+    <string name="sent">Expédié</string>
+    <string name="the_word_you_searched">Veuillez prendre un moment pour évaluer l\'application. Merci pour votre aide!</string>
+    <string name="loading_ads_text">Chargement des annonces...</string>
+    <string name="version">Version</string>
+    <string name="guide">Guide</string>
+    <string name="more_app">Plus d\'application</string>
+    <string name="rate_app">Application de taux</string>
+    <string name="feedback">Retour d\'information</string>
+    <string name="contac_us">Contactez-nous</string>
+    <string name="scan_text">Numériser le texte</string>
+    <string name="enter_file_name">Entrez le nom du fichier</string>
+    <string name="scanned_text">Texte numérisé</string>
+    <string name="no_image">Aucune image n\'a encore été numérisée</string>
+    <string name="delete">Effacer</string>
+    <string name="translate">Traduire</string>
+    <string name="speak">Parler</string>
+    <string name="text">Texte</string>
+    <string name="photo">Photo</string>
+    <string name="rename">Renommer</string>
+    <string name="empty_name">Le nom n\'est pas valide</string>
+    <string name="we_will_absorb_and_upgrade_a_lot_more">Nous absorberons et améliorerons beaucoup plus! Merci!</string>
+    <string name="please_give_us_feedback">Merci de nous faire part de vos commentaires</string>
+    <string name="do_you_like_the_app">Aimez-vous l\'application?</string>
+    <string name="confirm_delete">Vous supprimez un fichier.\n Ce fichier va complètement disparaître</string>
+    <string name="delete_file">Supprimer le fichier</string>
+    <string name="duplicate_name">Le nom existe déjà, veuillez en choisir un autre</string>
+    <string name="translate_to">Traduire en</string>
+
+    <string name="guide_info_1">Cliquez sur le bouton de fonction en haut à droite pour créer votre contenu</string>
+    <string name="guide_info_2">Cliquez sur la section "Contenu" et choisissez votre option de sujet préféré</string>
+    <string name="guide_info_3">Cliquez sur le bouton "Ajouter" pour créer plus de sujets</string>
+    <string name="guide_info_4">Faites défiler horizontalement pour choisir votre tour préféré. Cliquez sur le bouton "+" pour ajouter plus de réponses à partir de la roue</string>
+    <string name="guide_info_5">Cliquez sur le bouton "Modifier" pour modifier le contenu de votre roue de rotation</string>
+
+    <string name="loading_api">Obtenir la langue pour vous</string>
+    <string name="body_name_app">Outils, style de vie</string>
+
+    <string name="error_max_name">Le nom maximum est de 15 caractères.</string>
+    <string name="loading" translatable="false">Chargement...</string>
+
+    <string name="google_admob_app_id" translatable="false">ca-app-pub-6445739239297382~2703137382</string>
+
+    // in app purchase
+    <string name="enjoy_your_premium_member">Profitez de votre membre premium</string>
+    <string name="continues">Continuer</string>
+    <string name="in_app_month">/mois</string>
+    <string name="in_app_forever">/toujours</string>
+    <string name="in_app_year">/an</string>
+    <string name="save_in_app">Save %s</string>
+
+    <string name="in_app_title_1_m">Forfait mensuel</string>
+    <string name="in_app_content_1_m">Obtenez des privilèges Premium pendant 1 mois.</string>
+
+    <string name="in_app_title_n_m">Forfait %s mois</string>
+    <string name="in_app_content_n_m">Obtenez des privilèges Premium pour %s mois.</string>
+
+    <string name="in_app_title_1_y">Forfait à l\'année</string>
+    <string name="in_app_content_1_y">Obtenez des privilèges Premium pendant 1 an.</string>
+
+    <string name="in_app_title_f_r">Forfait pour toujours</string>
+    <string name="in_app_content_f_r">Obtenez des privilèges Premium pour toujours.</string>
+
+    // data default
+
+    <string name="title_default_1">Ce que je veux manger c\'est..</string>
+    <string name="content_default_1">Pizza</string>
+    <string name="content_default_2">Hamburger</string>
+    <string name="content_default_3">Poutine</string>
+    <string name="content_default_4">Macarons</string>
+    <string name="content_default_5">Steak de bœuf</string>
+    <string name="content_default_6">Poulet frit</string>
+    <string name="content_default_7">nourriture chinoise</string>
+    <string name="content_default_8">Pâtes</string>
+
+    <string name="title_default_2">Endroits intéressants à visiter</string>
+    <string name="content_default_1_1">Se garer</string>
+    <string name="content_default_2_1">Restaurant</string>
+    <string name="content_default_3_1">Musée</string>
+    <string name="content_default_4_1">Terrain de jeux</string>
+    <string name="content_default_5_1">Maison</string>
+    <string name="content_default_6_1">Cinéma</string>
+
+    <string name="title_default_3">Chance en or de boire</string>
+    <string name="content_default_1_2">Les filles boivent</string>
+    <string name="content_default_2_2">Les garçons boivent</string>
+    <string name="content_default_3_2">A côté de toi</string>
+    <string name="content_default_4_2">Personne qui tourne</string>
+    <string name="content_default_5_2">En face de toi</string>
+
+    <string name="title_default_4">Possibilité de faire le ménage</string>
+    <string name="content_default_1_3">la fille</string>
+    <string name="content_default_2_3">Le garçon</string>
+    <string name="content_default_3_3">Maman</string>
+    <string name="content_default_4_3">Papa</string>
+    <string name="content_default_5_3">Grand-mère</string>
+    <string name="content_default_6_3">Grand-père</string>
+    <string name="content_default_7_3">Le plus jeune</string>
+
+    <string name="title_default_5">Le plus jeune</string>
+    <string name="content_default_1_4">Rouge</string>
+    <string name="content_default_2_4">Jaune</string>
+    <string name="content_default_3_4">Bleu</string>
+    <string name="content_default_4_4">Vert</string>
+    <string name="content_default_5_4">Violet</string>
+    <string name="content_default_6_4">Blanc</string>
+    <string name="content_default_7_4">Le noir</string>
+
+    <string name="title_default_6">Qui est amoureux de toi ?</string>
+    <string name="content_default_1_5">Fille d\'en face</string>
+    <string name="content_default_2_5">Cheveux les plus courts</string>
+    <string name="content_default_3_5">Le plus grand garçon</string>
+    <string name="content_default_4_5">Garçon d\'en face</string>
+    <string name="content_default_5_5">Le mec le plus chaud</string>
+
+    // content
+    <string name="inactive">Inactif</string>
+    <string name="again">Encore</string>
+    <string name="share">Partager</string>
+    <string name="content">Contenu</string>
+    <string name="active_all">Tout actif</string>
+    <string name="add">Ajouter</string>
+    <string name="edit">Éditer</string>
+    <string name="suggest">Suggérer</string>
+    <string name="your_content">Votre contenu</string>
+    <string name="hint_edit_spin">Ex : Musée</string>
+    <string name="spin_theme">Thème de rotation</string>
+    <string name="full_color">Pleine couleur</string>
+    <string name="green_color">Vert</string>
+    <string name="red_color">Rouge</string>
+    <string name="blue_color">Bleu</string>
+    <string name="purple_color">Violet</string>
+    <string name="yellow_color">Jaune</string>
+    <string name="save">sauvegarder</string>
+    <string name="add_content">Ajouter du contenu</string>
+    <string name="name_content">Contenu du nom</string>
+
+    <string name="search">Recherche de langue</string>
+    <string name="search_error">Impossible de trouver "%s"</string>
+    <string name="try_searching">Essayez à nouveau de rechercher en utilisant une orthographe ou un mot-clé différent.</string>
+    <string name="app_name_setting">Roue tournante</string>
+    <string name="sound">Du son</string>
+    <string name="error_character">Maximum de 14 caractères</string>
+    <string name="empty_view">Veuillez ajouter du contenu au bouton \n ci-dessous</string>
+    <string name="note">Noter</string>
+    <string name="please_turn_on_the_network">Veuillez activer le réseau \n pour une meilleure expérience</string>
+    <string name="thank_for_your_response">Merci pour votre réponse  !</string>
+    <string name="we_will_listen_to_your_comments">Nous écouterons vos commentaires et\n travaillerons pour améliorer le produit !</string>
+    <string name="delete_this_content">Supprimer ce contenu</string>
+    <string name="error_min_content">La quantité minimale de contenu est de 4.\n Veuillez remplir plus</string>
+    <string name="error_max_content">Vous avez atteint votre limite de \n quantité de contenu.\n Veuillez mettre à jour pour plus de choix.</string>
+    <string name="error_max_content_in_app">Vous avez atteint votre limite de quantité de contenu.</string>
+    <string name="error_blank_content">Le contenu ne peut pas être laissé vide</string>
+    <string name="update">Mise à jour</string>
+    <string name="error_blank_question">Veuillez remplir les informations de la question</string>
+    <string name="error_same_name">Ce contenu existe déjà. Veuillez entrer un autre contenu !</string>
+
+</resources>
