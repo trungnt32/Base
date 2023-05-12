@@ -16,12 +16,6 @@ import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.applovin.mediation.MaxAd
-import com.applovin.mediation.MaxError
-import com.applovin.mediation.nativeAds.MaxNativeAdListener
-import com.applovin.mediation.nativeAds.MaxNativeAdLoader
-import com.applovin.mediation.nativeAds.MaxNativeAdView
-import com.applovin.mediation.nativeAds.MaxNativeAdViewBinder
 import nat.pink.base.App
 import nat.pink.base.MainActivity
 import nat.pink.base.R
@@ -110,65 +104,7 @@ class LanguageFragment() : Fragment(R.layout.fragment_language), Parcelable {
 
     }
 
-    private fun createNativeAdView(): MaxNativeAdView {
-        val binder = MaxNativeAdViewBinder.Builder(R.layout.native_custom_ads_big)
-            .setTitleTextViewId(R.id.txt_title)
-            .setBodyTextViewId(R.id.txt_body)
-            .setAdvertiserTextViewId(R.id.txt_advertiser)
-            .setIconImageViewId(R.id.icon_image_view)
-            .setMediaContentViewGroupId(R.id.media_view_container)
-            .setOptionsContentViewGroupId(R.id.ad_options_view)
-            .setCallToActionButtonId(R.id.cta_button)
-            .build()
-        return MaxNativeAdView(binder, context)
-    }
-
-    // AppLovin SDK
-    private var nativeAdLoader: MaxNativeAdLoader? = null
-    private var nativeAd: MaxAd? = null
-
-    private fun initNativeAd() {
-        nativeAdLoader = MaxNativeAdLoader(Const.KEY_ADS_CHANGE_LANGUAGE, requireContext())
-        nativeAdLoader!!.setRevenueListener { ad: MaxAd? ->
-            Log.d(
-                TAG,
-                "onAdRevenuePaid: "
-            )
-        }
-        nativeAdLoader!!.setNativeAdListener(object : MaxNativeAdListener() {
-            override fun onNativeAdLoaded(maxNativeAdView: MaxNativeAdView?, maxAd: MaxAd) {
-                Log.d(TAG, "onNativeAdLoaded: ")
-                if (nativeAd != null) {
-                    nativeAdLoader!!.destroy(nativeAd)
-                }
-                nativeAd = maxAd
-                binding.nativeAdsLanguageHome.removeAllViews()
-                val adView: MaxNativeAdView = createNativeAdView()
-                // Render the ad separately
-                nativeAdLoader!!.render(adView, nativeAd)
-                binding.nativeAdsLanguageHome.addView(adView)
-            }
-
-            override fun onNativeAdLoadFailed(s: String, maxError: MaxError) {
-                super.onNativeAdLoadFailed(s, maxError)
-                Log.d(TAG, "onNativeAdLoadFailed: ")
-            }
-
-            override fun onNativeAdClicked(maxAd: MaxAd) {
-                super.onNativeAdClicked(maxAd)
-                Log.d(TAG, "onNativeAdClicked: ")
-                App.firebaseAnalytics.logEvent("Clicklanguagenative", null)
-            }
-        })
-        Handler(Looper.getMainLooper()).postDelayed({ nativeAdLoader!!.loadAd() }, 2000)
-    }
-
     override fun onDestroyView() {
-        if (nativeAd != null) {
-            nativeAdLoader!!.destroy(nativeAd)
-        }
-        if (nativeAdLoader != null)
-            nativeAdLoader!!.destroy()
         super.onDestroyView()
     }
 

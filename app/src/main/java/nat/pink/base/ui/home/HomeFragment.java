@@ -17,7 +17,6 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 import android.widget.PopupWindow;
 import android.widget.Switch;
 
@@ -25,11 +24,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.constraintlayout.utils.widget.ImageFilterView;
 import androidx.lifecycle.ViewModelProvider;
-
-import com.applovin.mediation.MaxAd;
-import com.applovin.mediation.nativeAds.MaxNativeAdLoader;
-import com.applovin.mediation.nativeAds.MaxNativeAdView;
-import com.applovin.mediation.nativeAds.MaxNativeAdViewBinder;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -53,7 +47,6 @@ import nat.pink.base.setting.GuideFragment;
 import nat.pink.base.setting.LanguageFragmentSetting;
 import nat.pink.base.setting.MoreAppFragment;
 import nat.pink.base.setting.PrivacyFragment;
-import nat.pink.base.setting.inapp.InAppFragment;
 import nat.pink.base.ui.home.detail.AddEditFragment;
 import nat.pink.base.ui.home.detail.ListFragment;
 import nat.pink.base.ui.home.detail.ResultFragment;
@@ -351,7 +344,7 @@ public class HomeFragment extends BaseFragment<HomeFragmentBinding, HomeViewMode
     public void initEvent() {
         super.initEvent();
         binding.ivPurchase.setOnClickListener(v -> {
-            addChildFragment(new InAppFragment(o -> binding.nativeAdWordDetail.setVisibility(View.GONE)));
+//            addChildFragment(new InAppFragment(o -> binding.nativeAdWordDetail.setVisibility(View.GONE)));
         });
         binding.lwContent.setOnClickListener(v -> startLucky());
         binding.lwContent.setLuckyRoundItemSelectedListener(new LuckyWheelView.LuckyRoundItemSelectedListener() {
@@ -444,37 +437,11 @@ public class HomeFragment extends BaseFragment<HomeFragmentBinding, HomeViewMode
 
     @Override
     public void onDestroy() {
-        if (nativeAdLoader != null && nativeAd != null)
-            nativeAdLoader.destroy(nativeAd);
         super.onDestroy();
     }
 
-    private MaxNativeAdView createNativeAdView() {
-        MaxNativeAdViewBinder binder = new MaxNativeAdViewBinder.Builder(R.layout.native_custom_ads)
-                .setTitleTextViewId(R.id.txt_title)
-                .setBodyTextViewId(R.id.txt_body)
-                .setAdvertiserTextViewId(R.id.txt_advertiser)
-                .setIconImageViewId(R.id.icon_image_view)
-                .setMediaContentViewGroupId(R.id.media_view_container)
-                .setOptionsContentViewGroupId(R.id.ad_options_view)
-                .setCallToActionButtonId(R.id.cta_button)
-                .build();
-        return new MaxNativeAdView(binder, getContext());
-    }
-
-    // AppLovin SDK
-    private MaxNativeAdLoader nativeAdLoader;
-    private MaxAd nativeAd;
-    private FrameLayout nativeAdLayout;
-
-
     @Override
     public void onDestroyView() {
-        if (nativeAd != null) {
-            nativeAdLoader.destroy(nativeAd);
-        }
-        if (nativeAdLoader != null)
-            nativeAdLoader.destroy();
         super.onDestroyView();
     }
 

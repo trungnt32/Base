@@ -9,9 +9,6 @@ import android.os.Handler;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.applovin.mediation.ads.MaxInterstitialAd;
-
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -25,7 +22,6 @@ public class SplashScreenActivity extends AppCompatActivity {
     private ActivitySplashScreenBinding binding;
     private Timer timer;
     private boolean appInitialized = false;
-    private MaxInterstitialAd interstitialAd;
     private int retryAttempt = 0;
 
     @Override
@@ -92,9 +88,6 @@ public class SplashScreenActivity extends AppCompatActivity {
     protected void onDestroy() {
         if (timer != null)
             timer.cancel();
-        if (interstitialAd != null) {
-            interstitialAd.destroy();
-        }
         super.onDestroy();
     }
 

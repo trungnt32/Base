@@ -4,8 +4,6 @@ import android.app.Application
 import android.os.Bundle
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
-import com.applovin.sdk.AppLovinMediationProvider
-import com.applovin.sdk.AppLovinSdk
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
@@ -13,8 +11,6 @@ import com.google.firebase.ktx.Firebase
 import com.google.firebase.messaging.FirebaseMessaging
 import nat.pink.base.log.DebugTree
 import nat.pink.base.log.ReleaseTree
-import nat.pink.base.utils.InAppPurchase
-import nat.pink.base.utils.InAppPurchaseInitializationListener
 import timber.log.Timber
 
 class App : Application() {
@@ -31,18 +27,6 @@ class App : Application() {
         instance = this
         initTimber()
 
-        // Initialize In-App Purchase Helper.
-        InAppPurchase.initialize(this, object : InAppPurchaseInitializationListener {
-            override fun onInitialized() {
-                isInitialized = true
-                initializeEvent.postValue(true)
-            }
-        })
-
-        AppLovinSdk.getInstance(this).mediationProvider = AppLovinMediationProvider.MAX
-        AppLovinSdk.getInstance(this).initializeSdk {
-            Log.d(TAG, "onCreate: ")
-        }
         val bundle = Bundle()
         bundle.putString("app_open", "app_open")
 //        firebaseAnalytics = Firebase.analytics

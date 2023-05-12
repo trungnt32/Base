@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import nat.pink.base.App;
-import nat.pink.base.MainActivity;
 import nat.pink.base.R;
 import nat.pink.base.adapter.ItemContentAdapter;
 import nat.pink.base.adapter.ItemSpinThemeAdapter;
@@ -31,7 +30,6 @@ import nat.pink.base.dialog.DialogConfirm;
 import nat.pink.base.dialog.DialogNameContent;
 import nat.pink.base.model.ObjectSpin;
 import nat.pink.base.model.ObjectsContentSpin;
-import nat.pink.base.setting.inapp.InAppFragment;
 import nat.pink.base.ui.home.HomeViewModel;
 import nat.pink.base.utils.Const;
 import nat.pink.base.utils.Utils;
@@ -186,9 +184,9 @@ public class AddEditFragment extends BaseFragment<FragmentAddEditBinding, HomeVi
             }
             if (objectDefaults.size() > (getHideAds() ? 16 : 10)) {
                 new DialogConfirm(requireActivity(), R.style.MaterialDialogSheet, getDrawableLayout(), DialogConfirm.TYPE_DIALOG.TYPE_ERROR_MAX_CONTENT_IN_APP, type_dialog -> {
-                    ((MainActivity) getActivity()).addChildFragment(new InAppFragment(o -> {
-                        setHideAds(true);
-                    }), InAppFragment.class.getSimpleName());
+//                    ((MainActivity) getActivity()).addChildFragment(new InAppFragment(o -> {
+//                        setHideAds(true);
+//                    }), InAppFragment.class.getSimpleName());
                 }).show();
                 return;
             }

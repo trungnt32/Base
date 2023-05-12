@@ -17,7 +17,6 @@ import java.util.List;
 import nat.pink.base.R;
 import nat.pink.base.databinding.ItemInAppBinding;
 import nat.pink.base.model.InAppProductModel;
-import nat.pink.base.utils.InAppPurchase;
 
 public class ItemInAppAdapter extends RecyclerView.Adapter<ItemInAppAdapter.ViewHolder> {
 
@@ -32,10 +31,6 @@ public class ItemInAppAdapter extends RecyclerView.Adapter<ItemInAppAdapter.View
     @RequiresApi(api = Build.VERSION_CODES.N)
     public void setItems(List<InAppProductModel> items) {
         this.items = items;
-        items.forEach(inAppProductModel -> {
-            if (inAppProductModel.getId().contains(InAppPurchase.IN_APP_PROD_1y))
-                objectSelect = inAppProductModel;
-        });
         notifyDataSetChanged();
     }
 
@@ -58,10 +53,10 @@ public class ItemInAppAdapter extends RecyclerView.Adapter<ItemInAppAdapter.View
         InAppProductModel inAppProductModel = items.get(position);
         if (inAppProductModel == null)
             return;
-        binding.txtTitle.setText(getTitle(inAppProductModel.getId()));
-        binding.txtContent.setText(getContent(inAppProductModel.getId()));
+//        binding.txtTitle.setText(getTitle(inAppProductModel.getId()));
+//        binding.txtContent.setText(getContent(inAppProductModel.getId()));
         binding.txtPrice.setText(inAppProductModel.getPrice());
-        binding.txtCurrencyPrice.setText(getCurrent(inAppProductModel.getId()));
+//        binding.txtCurrencyPrice.setText(getCurrent(inAppProductModel.getId()));
         binding.llSaleOff.setVisibility(inAppProductModel.getSalePrice() != 0 ? View.VISIBLE : View.GONE);
         binding.txtSaleOff.setText(String.format(context.getString(R.string.save_in_app), inAppProductModel.getSalePrice() + "%"));
         boolean isSelect = objectSelect != null && inAppProductModel.getId().contains(objectSelect.getId());
@@ -92,43 +87,43 @@ public class ItemInAppAdapter extends RecyclerView.Adapter<ItemInAppAdapter.View
         }
     }
 
-    private String getTitle(String key) {
-        if (key.contains(InAppPurchase.IN_APP_PROD_1m)) {
-            return context.getString(R.string.in_app_title_1_m);
-        }
-        if (key.contains(InAppPurchase.IN_APP_PROD_3m)) {
-            return String.format(context.getString(R.string.in_app_title_n_m), "3");
-        }
-        if (key.contains(InAppPurchase.IN_APP_PROD_6m)) {
-            return String.format(context.getString(R.string.in_app_title_n_m), "6");
-        }
-        if (key.contains(InAppPurchase.IN_APP_PROD_1y)) {
-            return context.getString(R.string.in_app_title_1_y);
-        }
-        return context.getString(R.string.in_app_title_f_r);
-    }
-
-    private String getCurrent(String key) {
-        if (key.contains(InAppPurchase.IN_APP_PROD_1m) || key.contains(InAppPurchase.IN_APP_PROD_3m) || key.contains(InAppPurchase.IN_APP_PROD_6m))
-            return context.getString(R.string.in_app_month);
-        if (key.contains(InAppPurchase.IN_APP_PROD_1y))
-            return context.getString(R.string.in_app_year);
-        return context.getString(R.string.in_app_forever);
-    }
-
-    private String getContent(String key) {
-        if (key.contains(InAppPurchase.IN_APP_PROD_1y)) {
-            return context.getString(R.string.in_app_title_1_y);
-        }
-        if (key.contains(InAppPurchase.IN_APP_PROD_1m)) {
-            return context.getString(R.string.in_app_title_1_m);
-        }
-        if (key.contains(InAppPurchase.IN_APP_PROD_3m)) {
-            return String.format(context.getString(R.string.in_app_title_n_m), "3");
-        }
-        if (key.contains(InAppPurchase.IN_APP_PROD_6m)) {
-            return String.format(context.getString(R.string.in_app_title_n_m), "6");
-        }
-        return context.getString(R.string.in_app_title_f_r);
-    }
+//    private String getTitle(String key) {
+//        if (key.contains(InAppPurchase.IN_APP_PROD_1m)) {
+//            return context.getString(R.string.in_app_title_1_m);
+//        }
+//        if (key.contains(InAppPurchase.IN_APP_PROD_3m)) {
+//            return String.format(context.getString(R.string.in_app_title_n_m), "3");
+//        }
+//        if (key.contains(InAppPurchase.IN_APP_PROD_6m)) {
+//            return String.format(context.getString(R.string.in_app_title_n_m), "6");
+//        }
+//        if (key.contains(InAppPurchase.IN_APP_PROD_1y)) {
+//            return context.getString(R.string.in_app_title_1_y);
+//        }
+//        return context.getString(R.string.in_app_title_f_r);
+//    }
+//
+//    private String getCurrent(String key) {
+//        if (key.contains(InAppPurchase.IN_APP_PROD_1m) || key.contains(InAppPurchase.IN_APP_PROD_3m) || key.contains(InAppPurchase.IN_APP_PROD_6m))
+//            return context.getString(R.string.in_app_month);
+//        if (key.contains(InAppPurchase.IN_APP_PROD_1y))
+//            return context.getString(R.string.in_app_year);
+//        return context.getString(R.string.in_app_forever);
+//    }
+//
+//    private String getContent(String key) {
+//        if (key.contains(InAppPurchase.IN_APP_PROD_1y)) {
+//            return context.getString(R.string.in_app_title_1_y);
+//        }
+//        if (key.contains(InAppPurchase.IN_APP_PROD_1m)) {
+//            return context.getString(R.string.in_app_title_1_m);
+//        }
+//        if (key.contains(InAppPurchase.IN_APP_PROD_3m)) {
+//            return String.format(context.getString(R.string.in_app_title_n_m), "3");
+//        }
+//        if (key.contains(InAppPurchase.IN_APP_PROD_6m)) {
+//            return String.format(context.getString(R.string.in_app_title_n_m), "6");
+//        }
+//        return context.getString(R.string.in_app_title_f_r);
+//    }
 }

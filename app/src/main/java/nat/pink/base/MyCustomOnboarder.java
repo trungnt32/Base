@@ -3,8 +3,6 @@ package nat.pink.base;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -12,18 +10,12 @@ import androidx.fragment.app.Fragment;
 import com.aemerse.onboard.OnboardAdvanced;
 import com.aemerse.onboard.OnboardFragment;
 import com.aemerse.onboard.ScreenUtils;
-import com.applovin.mediation.MaxAd;
-import com.applovin.mediation.MaxAdListener;
-import com.applovin.mediation.MaxError;
-import com.applovin.mediation.ads.MaxInterstitialAd;
 
 import nat.pink.base.onboard.language.LanguageFragment;
-import nat.pink.base.utils.Const;
 import nat.pink.base.utils.MyContextWrapper;
 import nat.pink.base.utils.PreferenceUtil;
 
 public class MyCustomOnboarder extends OnboardAdvanced {
-    private MaxInterstitialAd interstitialAd;
     private int retryAttempt = 0;
 
     @Override
@@ -55,9 +47,6 @@ public class MyCustomOnboarder extends OnboardAdvanced {
 
     @Override
     protected void onDestroy() {
-        if (interstitialAd != null) {
-            interstitialAd.destroy();
-        }
 
 //        setLoadingAdsView(false);
         super.onDestroy();
@@ -111,50 +100,5 @@ public class MyCustomOnboarder extends OnboardAdvanced {
         finish();
     }
 
-    //AppLovin Ads Integrate!!!
-    private void initInterstitialAd() {
-        interstitialAd = new MaxInterstitialAd(Const.KEY_ADS_GUIDE, this);
-        interstitialAd.setListener(new MaxAdListener() {
-            @Override
-            public void onAdLoaded(MaxAd ad) {
-                if (interstitialAd != null && interstitialAd.isReady()) {
-                    interstitialAd.showAd();
-                } else {
-                    showHome();
-                }
-            }
-
-            @Override
-            public void onAdDisplayed(MaxAd ad) {
-
-            }
-
-            @Override
-            public void onAdHidden(MaxAd ad) {
-                showHome();
-            }
-
-            @Override
-            public void onAdClicked(MaxAd ad) {
-                App.firebaseAnalytics.logEvent("Clickinterguide",null);
-            }
-
-            @Override
-            public void onAdLoadFailed(String adUnitId, MaxError error) {
-                retryAttempt++;
-
-                if (retryAttempt < 3) {
-                    new Handler(Looper.getMainLooper()).postDelayed(() -> interstitialAd.loadAd(), 300);
-                } else {
-                    showHome();
-                }
-            }
-
-            @Override
-            public void onAdDisplayFailed(MaxAd ad, MaxError error) {
-                showHome();
-            }
-        });
-    }
 }
 

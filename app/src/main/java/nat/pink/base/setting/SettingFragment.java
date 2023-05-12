@@ -4,15 +4,11 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.applovin.sdk.AppLovinSdk;
-
 import nat.pink.base.App;
-import nat.pink.base.BuildConfig;
 import nat.pink.base.MainActivity;
 import nat.pink.base.R;
 import nat.pink.base.base.BaseFragment;
@@ -62,8 +58,6 @@ public class SettingFragment extends BaseFragment<FragmentSettingBinding, HomeVi
         }).show());
         binding.clPrivacy.setOnClickListener(v -> ((MainActivity) getActivity()).addChildFragment(new PrivacyFragment(), PrivacyFragment.class.getSimpleName()));
         binding.clGuide.setOnClickListener(v -> ((MainActivity) getActivity()).addChildFragment(new GuideFragment(), GuideFragment.class.getSimpleName()));
-        binding.appLovinDebug.setVisibility(BuildConfig.DEBUG ? View.VISIBLE : View.GONE);
-        binding.appLovinDebug.setOnClickListener(v -> AppLovinSdk.getInstance(getContext()).showMediationDebugger());
     }
 
     @Override
